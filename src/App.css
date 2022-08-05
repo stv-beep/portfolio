@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #111 /* #282c34 */;
+  min-height: 1vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,7 @@
 
 .App-link {
   color: #61dafb;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* nav */
+
+.nav-bar {
+  background-color: black;
+  color: cyan;
+  margin: 0px;
+  padding: 10px;
+  text-align: right;
+  font-family: 'Righteous', sans-serif;
+}
+
+.aboutLink {
+  margin: 5px;
+  padding-right: 20px;
+}
+
+
+/* about */
+
+.introLeft {
+  text-align: left;
+  align-items: left;
+}
+
+.me {
+  height: 300px;
+  float: right;
+}
+
+.aboutMe {
+  font-size: 12px;
+  text-align: center;
+}
+
+.grid {
+  justify-items: center;
+}
+
+.intro {
+  padding: 4vh;
+}
+
+.myPhoto {
+  padding: 1vh;
+}
+
+
+/* info */
+
+
+/* footer */
+footer {
+  background-color:darkslategrey;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 16vh;
+}
+
+.text-4xl {
+  color: white;
 }
