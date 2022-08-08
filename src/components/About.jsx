@@ -5,7 +5,7 @@ import me from '../jo5.png'
 export function About(){
     return (
         <Fragment>
-            <section className="container mx-auto p-10 lg:p-0 lg:pt-20 lg:pb-20">
+            <section className="container mx-auto p-10 lg:p-0 lg:pt-20 lg:pb-20" id="about">
 
             <div className="container mx-auto mt-5 text-center">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2">

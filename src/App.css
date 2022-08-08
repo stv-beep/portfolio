@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #111;
 }
 
 .App-logo {
@@ -39,19 +40,62 @@
 }
 
 /* nav */
-
-.nav-bar {
-  background-color: black;
-  color: cyan;
-  margin: 0px;
-  padding: 10px;
-  text-align: right;
-  font-family: 'Righteous', sans-serif;
+nav {
+  position: sticky;
+  top: 0;
+  font-family: 'Righteous';
 }
 
-.aboutLink {
-  margin: 5px;
-  padding-right: 20px;
+.NavbarItems {
+  background-color: #000000ab;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+}
+
+nav a {
+  color:#ff6060;
+}
+
+.NavbarItems h1 {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+.logo {
+  width: 20%;
+  float: left;
+}
+.navbar-ul {
+  width: 80%;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+}
+li {
+  display: inline;
+  list-style: none;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 50px;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+}
+.nav-links-mobile {
+  color: white;
+  text-decoration: none;
+}
+li:hover {
+  background-color: white;
+}
+li:hover .nav-links {
+  color: black;
+}
+li:hover .nav-links-mobile {
+  color: black;
 }
 
 
@@ -85,7 +129,24 @@
 }
 
 
-/* info */
+/* skills */
+.skills h2 {
+  font-family: 'Righteous', sans-serif;
+  color:azure;
+}
+.skills {
+  background-color: #111;
+}
+.skillsIcons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skillsIcons img {
+  max-height: 50px;
+  max-width: 50px;
+}
 
 
 /* footer */
@@ -97,7 +158,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 16vh;
+  min-height: 15vh;
 }
 
 .text-4xl {

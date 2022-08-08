@@ -2,15 +2,22 @@ import './App.css';
 import { Nav } from './components/Nav'
 import { About } from './components/About'
 import { Footer } from './components/Footer'
+import { Skills } from './components/Skills'
+import { Projects } from './components/Projects'
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <header className="App-header">
-        <About/>        
+        <About/>
       </header>
-      <Footer/>
+        
+        
+        <Skills/>     
+        
+        <Projects/>  
+      {/* <Footer/> */}
     </div>
   );
 }
