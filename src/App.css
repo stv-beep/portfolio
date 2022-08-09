@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   background-color: #111;
 }
 
@@ -15,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #111 /* #282c34 */;
+  background-color: #111;
   min-height: 1vh;
   display: flex;
   flex-direction: column;
@@ -44,6 +43,8 @@ nav {
   position: sticky;
   top: 0;
   font-family: 'Righteous';
+  z-index: 10;
+  text-align: center;
 }
 
 .NavbarItems {
@@ -98,34 +99,85 @@ li:hover .nav-links-mobile {
   color: black;
 }
 
-
 /* about */
-
-.introLeft {
-  text-align: left;
-  align-items: left;
+.alfa {
+  font-family: 'Alfa Slab One', cursive;
 }
 
-.me {
-  height: 300px;
-  float: right;
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.aboutMe {
-  font-size: 12px;
-  text-align: center;
+.full-width {
+  width: 100%;
+  margin: auto;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.grid {
-  justify-items: center;
+#about {
+  padding: 14vh 5vh 10vh 5vh;
+  background-color: #111;
 }
 
-.intro {
-  padding: 4vh;
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.myPhoto {
-  padding: 1vh;
+.avatar {
+  border: 10px solid #d3d3d3;
+  
+  margin: auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.css-ghgpv1 {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+.div-avatar {
+  opacity: 1; transform: translateX(0px) translateY(0%) translateZ(0px);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-info {
+  width: 50%;
+}
+
+.box {
+  background: rgb(14 14 14);
+  box-shadow: 0px 0px 20px 9px #ddddddc5;
+  border-radius: 15px;
+  color: #000;
+  padding: 40px;
+}
+
+@media (max-width: 510px) {
+  #about {
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .about-info {
+    width: 100%;
+}
+
+.box {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
 }
 
 
@@ -139,15 +191,16 @@ li:hover .nav-links-mobile {
 }
 .skillsIcons {
   width: 40%;
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+  margin-left: auto;
+  margin-right: auto;
 }
 .skillsIcons img {
   max-height: 50px;
   max-width: 50px;
 }
-
 
 /* footer */
 footer {

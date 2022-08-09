@@ -1,7 +1,4 @@
 import { Fragment } from "react";
-import github from '../github-30.svg'
-import github2 from '../iconmonstr-github-1.svg'
-
 
 
 export function Footer(){
@@ -32,7 +29,6 @@ export function Footer(){
                     0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
                     </path></svg></a>                
                 
-                {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 Made with ❤ by Aleix Algueró
             </footer>
         </Fragment>

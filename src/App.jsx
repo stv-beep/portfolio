@@ -1,4 +1,5 @@
 import './App.css';
+import './btn.css';
 import { Nav } from './components/Nav'
 import { About } from './components/About'
 import { Footer } from './components/Footer'
@@ -16,8 +17,8 @@ function App() {
         
         <Skills/>     
         
-        <Projects/>  
-      {/* <Footer/> */}
+        {/* <Projects/> */}  
+        <Footer/>
     </div>
   );
 }
