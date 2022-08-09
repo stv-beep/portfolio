@@ -208,10 +208,9 @@ footer {
   align-items: center;
   justify-content: center;
   height: 100px;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 15vh;
+  min-height: 10vh;
 }
 
 .text-4xl {
