@@ -1,10 +1,8 @@
-import { Fragment } from "react";
 import '../App.css';
-import avatar from '../jo5.png'
+import avatar from '../images/aleixalguero.png'
 
 export function About(){
     return (
-        <Fragment>
             <section id="about">
                 <div className="full-width">
                     <div className="flex-row">
@@ -43,7 +41,5 @@ export function About(){
                     </div>
                 </div>
             </section>
-            
-        </Fragment>
     )
 }

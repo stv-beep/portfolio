@@ -13,11 +13,8 @@ function App() {
       <header className="App-header">
         <About/>
       </header>
-        
-        
-        <Skills/>     
-        
-        {/* <Projects/> */}  
+        <Skills/> 
+        <Projects/>
         <Footer/>
     </div>
   );
