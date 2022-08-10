@@ -43,48 +43,6 @@ export function About(){
                     </div>
                 </div>
             </section>
-
-
-
-
-
-            {/* <section className="container mx-auto p-10 lg:p-0 lg:pt-20 lg:pb-20" id="about">
-
-                <div className="container mx-auto mt-5 text-center">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-2">
-
-                            <div className="myPhoto">
-                                <img className="me" src={me}/>
-                            </div>
-                            <div className="intro">
-                                <p className="text-3xl alfa">HOLA 😎, SOY ALEIX ALGUERÓ</p><br/>
-                                <p className="text-xl alfa italic hover:text-red-600 text-cyan-50">Desarrollador Web y Administrador de Sistemas</p>
-                                <p className="text-lg montserrat">
-                                    Apasionado de la tecnología, empecé reparando ordenadores y 
-                                    me di cuenta de que me encantaba. 
-                                    Luego estudié Administración de Sistemas Informáticos en Red, 
-                                    que también me gustó y más tarde Desarrollo de Aplicaciones Web, que me gustó 
-                                    todavía más. Disfruto ayudando a la gente en las incidencias informáticas que 
-                                    puedan tener o desarrollando sus sueños a través de una app.
-                                </p>
-                                
-                                <div className="grid grid-cols-4 p-6 aboutIcons">
-                                    <span></span>
-                                    <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" className="btn">
-                                        <i className="devicon-linkedin-plain"></i></a>
-                                    <a href="https://github.com/stv-beep" target="_blank" className="btn"><i className="devicon-github-original"></i></a>
-                                </div>
-                            
-                
-                
-                        
-                            </div>
-                    
-                
-                    </div>
-                </div>
-
-            </section> */}
             
         </Fragment>
     )

@@ -51,5 +51,9 @@ export const technologies = [
         name: 'expressjs',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
     },
+    {
+        name: 'tailwindcss',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+    }
 
 ]

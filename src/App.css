@@ -118,7 +118,7 @@ li:hover .nav-links-mobile {
 }
 
 #about {
-  padding: 14vh 5vh 10vh 5vh;
+  padding: 18vh 5vh 18vh 5vh;
   background-color: #111;
 }
 
@@ -129,7 +129,7 @@ li:hover .nav-links-mobile {
 }
 
 .avatar {
-  border: 10px solid #d3d3d3;
+  border: 10px solid #ddddddc5;
   
   margin: auto;
   max-height: 300px;
@@ -172,12 +172,17 @@ li:hover .nav-links-mobile {
 @media screen and (max-width: 650px) {
   .about-info {
     width: 100%;
-}
+  }
 
-.box {
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-}
+  .box {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+  }
+
+  .flex-row span {
+    text-align: center;
+  }
+
 }
 
 
@@ -185,6 +190,7 @@ li:hover .nav-links-mobile {
 .skills h2 {
   font-family: 'Righteous', sans-serif;
   color:azure;
+  margin: 0 auto 25px;
 }
 .skills {
   background-color: #111;
@@ -200,6 +206,7 @@ li:hover .nav-links-mobile {
 .skillsIcons img {
   max-height: 50px;
   max-width: 50px;
+  margin: auto;
 }
 
 /* footer */
@@ -211,6 +218,7 @@ footer {
   bottom: 0;
   width: 100%;
   min-height: 10vh;
+  margin-top: 10vh;
 }
 
 .text-4xl {
