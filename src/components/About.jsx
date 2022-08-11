@@ -1,10 +1,12 @@
 import '../App.css';
 import avatar from '../images/aleixalguero.png'
+import ParticlesBG  from './ParticlesBG'
 
 export function About(){
     return (
             <section id="about">
                 <div className="full-width">
+                    <ParticlesBG/>
                     <div className="flex-row">
                         <div>
                             <div className="div-avatar">
