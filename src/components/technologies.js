@@ -3,6 +3,14 @@ export const technologies = [
         name: 'js',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
     },
+    {
+        name: 'html',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg'
+    },
+    { 
+        name: 'css',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'
+    },
     { 
         name: 'vuejs',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'
@@ -14,10 +22,6 @@ export const technologies = [
     {
         name: 'react',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-    },
-    { 
-        name: 'css',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'
     },
     { 
         name: 'php',
@@ -65,6 +69,14 @@ export const stack = [
         name: 'js',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
     },
+    {
+        name: 'html',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg'
+    },
+    { 
+        name: 'css',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'
+    },
     { 
         name: 'vuejs',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'
@@ -76,10 +88,6 @@ export const stack = [
     {
         name: 'react',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-    },
-    { 
-        name: 'css',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'
     },
     { 
         name: 'php',

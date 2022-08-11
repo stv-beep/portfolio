@@ -1,5 +1,6 @@
 import initlab from '../images/initlab.png'
 import f1quotes from '../images/f1quotesapi.png'
+import kimiquotes from '../images/kimiquotes.png'
 
 export function Projects(){
     return (
@@ -20,6 +21,7 @@ export function Projects(){
                             
                             <img className="inline-block h-10 w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" />
                             <img className="inline-block h-10 w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+                            <img className="inline-block h-10 w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />
           
                             <a href="https://www.initlab.cat" target="_blank"><button className='button2 float-right'>Demo</button></a>
                         </div>
@@ -44,7 +46,7 @@ export function Projects(){
 
                         
                         <div className="rounded overflow-hidden shadow-lg bg-gray-700">
-                        <img className="w-full" src={initlab} alt=""></img>
+                        <img className="w-full" src={kimiquotes} alt="Kimi Raikkonen Quotes"></img>
                         <div className="px-6 py-4">
                             <div className="font-bold text-xl mb-2 text-white">Kimi Räikkönen Quotes</div>
                             <p className="text-white text-base">
@@ -53,7 +55,7 @@ export function Projects(){
                         </div>
                         <div className="px-6 pt-4 pb-2">
                             <img className="inline-block h-10 w-10" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
-                            
+                            <a href="https://github.com/stv-beep/Vue-PublicAPI" target="_blank"><button className='button2 float-right'>Código fuente</button></a>
                         </div>
                         </div>
                 </div>

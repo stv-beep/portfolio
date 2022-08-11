@@ -23,7 +23,7 @@ export function About(){
                                 <div className="box">
                                     <div className="flex-row">
                                         <p className="montserrat text-cyan-50 font-extrabold">ALEIX ALGUERÓ</p>
-                                        <span className="hover:text-red-600 text-cyan-50 font-medium italic">
+                                        <span className="hover:text-red-600 text-cyan-50 font-medium">
                                             Desarrollador Web y Administrador de Sistemas</span>
                                     </div>
                                     <br/>
