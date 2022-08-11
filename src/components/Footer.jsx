@@ -5,10 +5,10 @@ export function Footer(){
     return (
             <footer className="flex bg-gray-900">
 
-                <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" rel="noreferrer" 
+                <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" 
                 className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
-                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" 
-                    stroke-linecap="round" stroke-linejoin="round" class="text-4xl mx-6" height="1em" 
+                    <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
+                    strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6" height="1em" 
                     width="1em" xmlns="http://www.w3.org/2000/svg"><desc></desc><path stroke="none" 
                     d="M0 0h24v24H0z" fill="none"></path><rect x="4" y="4" width="16" height="16" 
                     rx="2"></rect><line x1="8" y1="11" x2="8" y2="16"></line><line x1="8" y1="8" 
@@ -16,10 +16,10 @@ export function Footer(){
                     <path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
 
 
-                <a href="https://github.com/stv-beep" target="_blank" rel="noreferrer" 
+                <a href="https://github.com/stv-beep" target="_blank" 
                 className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
-                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" 
-                    stroke-linecap="round" stroke-linejoin="round" class="text-4xl mx-6" 
+                    <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
+                    strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6" 
                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><desc></desc>
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 

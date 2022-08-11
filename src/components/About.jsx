@@ -12,11 +12,14 @@ export function About(){
                             <div className="div-avatar">
                                 <img className="avatar css-ghgpv1" src={avatar} alt="Aleix Algueró"/>
                                 &nbsp;
-                                <span className="social-links">
-                                    <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" className="btn">
-                                        <i className="devicon-linkedin-plain"></i></a>
-                                    <a href="https://github.com/stv-beep" target="_blank" className="btn"><i className="devicon-github-original"></i></a>
-                                </span>
+                                <div className='border-2 border-black p-4 bg-slate-50 rounded-lg mt-0'>
+                                    <span className="social-links">
+                                    
+                                        <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" className="btn">
+                                            <i className="devicon-linkedin-plain"></i></a>
+                                        <a href="https://github.com/stv-beep" target="_blank" className="btn"><i className="devicon-github-original"></i></a>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                         

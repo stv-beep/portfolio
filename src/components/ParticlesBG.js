@@ -3,12 +3,10 @@ import { loadFull } from "tsparticles";
 
 export default function ParticlesBG() {
   const particlesInit = async (main) => {
-
     await loadFull(main);
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
   };
 
   return (
