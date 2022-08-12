@@ -3,7 +3,7 @@ import logo from '../images/react.png'
 
 export function Footer(){
     return (
-            <footer className="flex bg-gray-900">
+            <footer className="flex">
 
                 <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" 
                 className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">

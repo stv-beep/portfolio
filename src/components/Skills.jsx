@@ -1,4 +1,3 @@
-import '../App.css';
 import { technologies, stack, learning } from "./technologies";
 
 export function Skills(){
@@ -9,7 +8,7 @@ export function Skills(){
                 <div className="grid grid-flow-col mb-36 bg-slate-100 rounded-2xl shadow-xl">
                     <div>
                         {/* <h3 className="text-center text-xl text-gray-900 pt-2">Conocimientos</h3> */}
-                        <div className="skillsIcons grid grid-cols-4 gap-4 section-stack py-10 sm:px-0">
+                        <div className="skillsIcons grid grid-cols-4 gap-4 section-stack py-10 sm:px-0 skillsGrid">
                             {technologies.map((item, index) => {
                                 return (
                                     <img key={index} src={item.src} alt={item.name} className="p-2 bg-slate-200 shadow-md rounded-sm"></img>

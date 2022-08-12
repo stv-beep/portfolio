@@ -45,7 +45,7 @@ export function Projects(){
         
                     {projects.map((item, index) => {
                         return (
-                            <div key={index} className="rounded overflow-hidden shadow-lg bg-neutral-50">
+                            <div key={index} className="overflow-hidden shadow-lg bg-neutral-50 rounded-2xl">
                                 <a href={item.link} target="_blank"><img  className="w-full" src={item.image} alt={item.title}/></a>
                                 <div className="px-6 py-4">
                                     <div className="font-bold text-xl mb-2 text-black">{item.title}</div>

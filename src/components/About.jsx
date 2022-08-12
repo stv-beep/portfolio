@@ -12,7 +12,7 @@ export function About(){
                             <div className="div-avatar">
                                 <img className="avatar css-ghgpv1" src={avatar} alt="Aleix Algueró"/>
                                 &nbsp;
-                                <div className='border-2 border-black p-4 bg-slate-50 rounded-lg mt-0'>
+                                <div className=' p-2 bg-gray-300 rounded-lg mt-0'>
                                     <span className="social-links">
                                     
                                         <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" className="btn">
@@ -28,7 +28,7 @@ export function About(){
                                 <div className="box">
                                     <div className="flex-row">
                                         <p className="montserrat text-cyan-50 font-extrabold">ALEIX ALGUERÓ</p>
-                                        <span className="hover:text-red-600 text-cyan-50 font-medium">
+                                        <span className="hover:text-green-700 text-cyan-50 font-medium">
                                             Desarrollador Web y Administrador de Sistemas</span>
                                     </div>
                                     <br/>
