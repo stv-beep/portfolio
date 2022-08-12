@@ -26,20 +26,19 @@ export function About(){
                         <div className="about-info">
                             <div>
                                 <div className="box">
-                                    <div className="flex-row">
+                                    <div className="py-3">
                                         <p className="montserrat text-cyan-50 font-extrabold">ALEIX ALGUERÓ</p>
                                         <span className="hover:text-green-700 text-cyan-50 font-medium">
-                                            Desarrollador Web y Administrador de Sistemas</span>
+                                        Web Developer and SysAdmin</span>
                                     </div>
                                     <br/>
                                     <p className="text-lg montserrat text-white">
-                                            Apasionado de la tecnología, empecé reparando ordenadores y 
-                                            me di cuenta de que me encantaba. 
-                                            Luego estudié Administración de Sistemas Informáticos en Red, 
-                                            que también me gustó y más tarde Desarrollo de Aplicaciones Web, que me gustó 
-                                            todavía más. Disfruto ayudando a la gente en las incidencias informáticas que 
-                                            puedan tener o desarrollando sus sueños a través de una app.
+                                            Technology enthusiast, I started reparing computers and I realised that I loved this.
+                                            Then, I studied Administration of Computer Network Systems and I also liked it, and,
+                                            later, Web Development, which I liked even more. I enjoy helping people with computer 
+                                            incidents that their may have or developing their dreams through an app.
                                     </p>
+                                    
                                 </div>
                             </div>
                         </div>

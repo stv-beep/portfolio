@@ -8,6 +8,9 @@ html {
 ::-webkit-scrollbar-thumb {
   background: black !important;
 }
+::-webkit-scrollbar-thumb:hover {
+  background: #101010 !important;
+}
 
 .App-logo {
   height: 40vmin;
