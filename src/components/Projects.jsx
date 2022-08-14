@@ -1,6 +1,7 @@
 import initlab from '../images/initlab.png'
 import f1quotes from '../images/f1quotesapi.png'
 import kimiquotes from '../images/kimiquotes.png'
+import timetrack from '../images/timetrack.png'
 
 export function Projects(){
 
@@ -32,6 +33,17 @@ export function Projects(){
             text: 'Simple, but funny app which shows the best quotes said by Finnish former Formula 1 driver Kimi Räikkönen during race or at interviews.',
             buttonText: 'Source code',
             languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'}]
+        },
+        {
+            title: 'Input and tracking working time app',
+            image: '/static/media/timetrack.ebc0ae822cc5f4748b96.png',
+            link: 'https://github.com/stv-beep/nath',
+            text: 'Working time, shifts and tracking app currently used in a company.',
+            buttonText: 'Source code',
+            languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
+                { alt: 'JavaScript', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+                { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
+                { alt: 'MySQL', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'}]
         }
     ]
 
@@ -65,8 +77,6 @@ export function Projects(){
                             </div>
                         )
                     })}
-
-
 
 
                     {/* <div className="rounded overflow-hidden shadow-lg bg-neutral-50">
