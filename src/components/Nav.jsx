@@ -19,6 +19,11 @@ const MenuItems = [
       Title: "<Projects/>",
       url: "#projects",
       cName: "nav-links"
+    },
+    {
+      Title: "<Contact me/>",
+      url: "#contact",
+      cName: "nav-links"
     }
   ];
 

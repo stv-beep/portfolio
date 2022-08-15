@@ -109,6 +109,12 @@ li:hover .nav-links {
 li:hover .nav-links-mobile {
   color: black;
 }
+@media screen and (max-width: 650px) {
+  .NavbarItems li {
+    font-size: 12px;
+  }
+}
+
 
 /* about */
 .alfa {
@@ -255,6 +261,11 @@ li:hover .nav-links-mobile {
   }
 }
 
+/* contact */
+.contact {
+  margin-right: 9rem;
+  margin-left: 9rem;
+}
 
 
 /* footer */

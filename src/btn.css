@@ -171,11 +171,10 @@
 
 /* contact button */
 /* From uiverse.io */
-.contact button {
-  --glow-color: rgb(217, 176, 255);
-  --glow-spread-color: rgba(191, 123, 255, 0.781);
-  --enhanced-glow-color: rgb(231, 206, 255);
-  --btn-color: rgb(100, 61, 136);
+.contact-btn {
+  --glow-color: rgb(163, 255, 162);
+  --glow-spread-color: rgba(163, 255, 162, 0.781);
+  --btn-color: rgb(7, 105, 58);
   border: .25em solid var(--glow-color);
   padding: 1em 3em;
   color: var(--glow-color);
@@ -185,14 +184,14 @@
   border-radius: 1em;
   outline: none;
   box-shadow: 0 0 1em .25em var(--glow-color),
-         0 0 4em 1em var(--glow-spread-color),
+         0 0 4em .1em var(--glow-spread-color),
          inset 0 0 .75em .25em var(--glow-color);
   text-shadow: 0 0 .5em var(--glow-color);
   position: relative;
   transition: all 0.3s;
  }
  
- .contact button::after {
+ .contact-btn::after {
   pointer-events: none;
   content: "";
   position: absolute;
@@ -206,7 +205,7 @@
   transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
  }
  
- .contact button:hover {
+ .contact-btn:hover {
   color: var(--btn-color);
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
@@ -214,7 +213,7 @@
          inset 0 0 .75em .25em var(--glow-color);
  }
  
- .contact button:active {
+ .contact-btn:active {
   box-shadow: 0 0 0.6em .25em var(--glow-color),
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
