@@ -12,9 +12,8 @@ export function About(){
                             <div className="div-avatar">
                                 <img className="avatar css-ghgpv1" src={avatar} alt="Aleix Algueró"/>
                                 &nbsp;
-                                <div className=' p-2 bg-gray-300 rounded-lg mt-0'>
+                                <div className="p-2 bg-gray-300 rounded-lg mt-0">
                                     <span className="social-links">
-                                    
                                         <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" className="btn">
                                             <i className="devicon-linkedin-plain"></i></a>
                                         <a href="https://github.com/stv-beep" target="_blank" className="btn"><i className="devicon-github-original"></i></a>
@@ -33,8 +32,8 @@ export function About(){
                                     </div>
                                     <br/>
                                     <p className="text-lg montserrat text-white">
-                                            Technology enthusiast, I started reparing computers and I realised that I loved this.
-                                            Then, I studied Administration of Computer Network Systems and I also liked it, and,
+                                            Technology enthusiast. I started reparing computers and I realised that I loved this.
+                                            Then, I studied Administration of Computer Network Systems and I also liked it, and
                                             later, Web Development, which I liked even more. I enjoy helping people with computer 
                                             incidents that their may have or developing their dreams through an app.
                                     </p>

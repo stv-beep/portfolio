@@ -36,16 +36,15 @@ export function Nav(){
             <ul>
                 {MenuItems.map((item, index) => {
                     return (
-                        <li key={index}>
-                            <a className={item.cName} href={item.url}>
-                                {item.Title}
+                            <a className="nav-links hover:text-black" href={item.url}>
+                              <li key={index}>
+                              {item.Title}
+                              </li>
                             </a>
-                        </li>
                 );
                 })}
             </ul>
             </nav>
-            
         </Fragment>
     )
 }
