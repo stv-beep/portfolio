@@ -31,13 +31,13 @@ const MenuItems = [
 export function Nav(){
     return (
         <Fragment>
-            <nav className="NavbarItems">
-            <a href="/">{a}</a>
+            <nav className="sticky top-0 z-10 text-center backdrop-blur-sm m-0 p-0 h-20">
+            <a href="/" className="text-red-500">{a}</a>
             <ul>
                 {MenuItems.map((item, index) => {
                     return (
-                            <a className="nav-links hover:text-black" href={item.url}>
-                              <li key={index}>
+                            <a className="text-white p-1 text-2xl hover:text-black" href={item.url}>
+                              <li key={index} className="inline list-none p-3 leading-10 hover:bg-white hover:rounded-sm">
                               {item.Title}
                               </li>
                             </a>

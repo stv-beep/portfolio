@@ -3,12 +3,12 @@ import logo from '../images/react.png'
 
 export function Footer(){
     return (
-            <footer className="flex">
+            <footer className="flex items-center justify-center h-24 min-h-full bottom-0 w-full mt-28">
 
                 <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" 
                 className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
-                    strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6" height="1em" 
+                    strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6 text-white" height="1em" 
                     width="1em" xmlns="http://www.w3.org/2000/svg"><desc></desc><path stroke="none" 
                     d="M0 0h24v24H0z" fill="none"></path><rect x="4" y="4" width="16" height="16" 
                     rx="2"></rect><line x1="8" y1="11" x2="8" y2="16"></line><line x1="8" y1="8" 
@@ -19,7 +19,7 @@ export function Footer(){
                 <a href="https://github.com/stv-beep" target="_blank" 
                 className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
-                    strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6" 
+                    strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6 text-white" 
                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><desc></desc>
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 
