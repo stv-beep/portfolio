@@ -185,6 +185,19 @@ nav li {
   transition: transform .3s;
 }
 
+.projectType{
+  visibility: hidden;
+}
+.card:hover .projectType{
+  visibility: visible;
+  position:absolute;
+  bottom:0;
+  right:0;
+  padding:15px;
+  color:#276042;
+  font-weight: bold;
+}
+
 
 /* footer */
 footer {
