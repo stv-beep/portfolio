@@ -14,7 +14,7 @@ export function About(){
                                 &nbsp;
                                 <div className="p-2 bg-gray-300 rounded-lg mt-0">
                                     <span className="social-links">
-                                        <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" className="btn">
+                                        <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" className="btn">
                                             <i className="devicon-linkedin-plain"></i></a>
                                         <a href="https://github.com/stv-beep" target="_blank" className="btn"><i className="devicon-github-original"></i></a>
                                     </span>
@@ -32,10 +32,11 @@ export function About(){
                                     </div>
                                     <br/>
                                     <p className="text-lg montserrat text-white">
-                                            Technology enthusiast. I started reparing computers and I realised that I loved this.
-                                            Then, I studied Administration of Computer Network Systems and I also liked it, and
-                                            later, Web Development, which I liked even more. I enjoy helping people with computer 
-                                            incidents that their may have or developing their dreams through an app.
+                                    Technology enthusiast. I started reparing computers and I realised that I loved this. 
+                                    Then, I studied Administration of Computer Network Systems and I also liked it, and later, 
+                                    Web Development, which I liked even more. I enjoy helping people with computer incidents 
+                                    that their may have or developing their ideas through an app. 
+                                    Always trying to improve myself and those around me.
                                     </p>
                                     
                                 </div>

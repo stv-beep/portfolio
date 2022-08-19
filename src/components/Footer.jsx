@@ -5,7 +5,7 @@ export function Footer(){
     return (
             <footer className="flex">
 
-                <a href="https://www.linkedin.com/in/aleix-algueró-omedes-958974236/" target="_blank" 
+                <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" 
                 className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
                     <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
                     strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6" height="1em" 
