@@ -35,9 +35,38 @@ nav li {
 }
 @media screen and (max-width: 650px) {
   nav li {
-    font-size: 12px;
+    font-size: 13px;
+    padding-right: 0.125rem;
   }
 }
+@media screen and (max-width: 375px) {
+  nav li {
+    font-size: 11px;
+    padding-right: 0.1rem;
+  }
+  .aa {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 335px) {
+  nav li {
+    font-size: 10px;
+    padding-right: 0.1rem;
+  }
+  .aa {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 300px) {
+  nav li {
+    font-size: 9px;
+    padding-right: 0px;
+  }
+  .aa {
+    visibility: hidden;
+  }
+}
+
 
 
 /* about */
