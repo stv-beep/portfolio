@@ -55,10 +55,10 @@ export function Projects(){
 
 
     return (
-            <section className="projects pt-36 mx-36" id="projects">
+            <section className="projects pt-36 2xl:mx-36 lg:mx-36 md:mx-0" id="projects">
                 <h2 className="text-center text-2xl section-title">My projects</h2>
                 
-                <div className="p-10 sm:m-1 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 
+                <div className="p-10 sm:m-1 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 
                 gap-5 bg-gray-200 rounded-3xl shadow-xl">
         
                     {projects.map((item, index) => {
