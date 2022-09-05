@@ -63,10 +63,10 @@ export function Projects(){
         
                     {projects.map((item, index) => {
                         return (
-                            <a href={item.link} className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
+                            <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
                             hover:bg-neutral-100 hover:scale-105 hover:shadow-green-100 hover:shadow-lg">
                             <div key={index}>
-                                <a href={item.link} target="_blank"><img className="w-full" src={item.image} alt={item.title}/></a>
+                                <img className="w-full" src={item.image} alt={item.title}/>
                                 <div className="px-6 py-4">
                                     <div className="font-bold text-xl mb-2 text-black">{item.title}</div>
                                     <p className="text-black text-base text-justify">
