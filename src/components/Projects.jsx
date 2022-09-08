@@ -24,7 +24,8 @@ export function Projects(){
             link: 'https://rapidapi.com/aleixalguero0/api/f1-drivers-quotes/',
             text: 'An API that provides +5000 lines of quotes cited by numerous Formula 1 drivers and personalities.',
             buttonText: 'RapidAPI',
-            languages: [{ alt: 'NodeJS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
+            languages: [{ alt: 'TypeScript', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
+                { alt: 'NodeJS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
                 { alt: 'Express', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'}],
             type: 'Backend'
         },
