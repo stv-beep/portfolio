@@ -26,8 +26,8 @@ export function About(){
                             <div>
                                 <div className="box">
                                     <div className="py-3">
-                                        <p className="montserrat text-cyan-50 font-extrabold">ALEIX ALGUERÓ</p>
-                                        <span className="hover:text-green-700 text-cyan-50 font-medium">
+                                        <p className="montserrat font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-400 to-green-600">ALEIX ALGUERÓ</p>
+                                        <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-green-400">
                                         Web Developer and SysAdmin</span>
                                     </div>
                                     <br/>

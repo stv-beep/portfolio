@@ -49,8 +49,8 @@
     background-color: rgb(46, 46, 46);
     background: linear-gradient(
        45deg,
-       #FF0000, #002BFF, #FF00C8, #002BFF,
-         #FF0000, #002BFF, #FF00C8, #002BFF
+       #3e3e3e, #43ffa7, #3e3e3e, #43ffa7, 
+        #3e3e3e, #43ffa7, #43ffa7, #3e3e3e
    );
     position: absolute;
     top: -2px;
