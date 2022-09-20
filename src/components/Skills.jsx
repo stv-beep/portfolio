@@ -10,7 +10,7 @@ export function Skills(){
                         <div className="skillsIcons grid sm:grid-cols-3 lg:grid-cols-6 gap-4 section-stack py-10 px-0 skillsGrid">
                             {technologies.map((item, index) => {
                                 return (
-                                    <img key={index} src={item.src} alt={item.name} className="p-2 bg-slate-200 shadow-md rounded-sm"></img>
+                                    <img key={index} src={item.src} alt={item.name} className="p-2 bg-slate-200 shadow-md rounded-sm w-full h-full"></img>
                                 );
                             })}
 

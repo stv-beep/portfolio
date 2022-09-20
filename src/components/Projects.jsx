@@ -8,7 +8,7 @@ export function Projects(){
     const projects = [
         {
             title: 'Initlab',
-            image: '/static/media/initlab.2830e0725ae04828082e.png',
+            image: '/static/media/initlab.f9380e64d40b8f506998.png',
             link: 'https://www.initlab.cat',
             text: 'An app for managing a fab lab. It is a platform and a meeting point of talented people and revolutionary ideas from our region. A place to share and have access to manufacturing tools to facilitate the work of manufacturing physical items. A training space for young and old. Meeting point of society, industry and education.',
             buttonText: 'Demo',
@@ -20,7 +20,7 @@ export function Projects(){
         },
         {
             title: 'F1 drivers quotes API',
-            image: '/static/media/f1quotesapi.e7267d8e4e7be91ff76b.png',
+            image: '/static/media/f1quotesapi.f4fe933454f0a398b165.png',
             link: 'https://rapidapi.com/aleixalguero0/api/f1-drivers-quotes/',
             text: 'An API that provides +5000 lines of quotes cited by numerous Formula 1 drivers and personalities.',
             buttonText: 'RapidAPI',
@@ -31,7 +31,7 @@ export function Projects(){
         },
         {
             title: 'Kimi Räikkönen Quotes',
-            image: '/static/media/kimiquotes.1c491fb3a9e6eee64ea3.png',
+            image: '/static/media/kimiquotes.913c928c464f202718f1.png',
             link: 'https://github.com/stv-beep/Vue-PublicAPI',
             text: 'Simple, but funny app which shows the best quotes said by Finnish former Formula 1 driver Kimi Räikkönen during race or at interviews.',
             buttonText: 'Source code',
@@ -40,7 +40,7 @@ export function Projects(){
         },
         {
             title: 'Input and tracking working time app',
-            image: '/static/media/timetrack.ebc0ae822cc5f4748b96.png',
+            image: '/static/media/timetrack.eb7aca5726655b08e54b.png',
             link: 'https://github.com/stv-beep/nath',
             text: 'Working time, shifts and tracking app currently used in a company.',
             buttonText: 'Source code',
@@ -67,7 +67,7 @@ export function Projects(){
                             <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
                             hover:bg-neutral-100 hover:scale-105 hover:shadow-green-100 hover:shadow-lg">
                             <div key={index}>
-                                <img className="w-full" src={item.image} alt={item.title}/>
+                                <img className="w-full h-full" src={item.image} alt={item.title}/>
                                 <div className="px-6 py-4">
                                     <div className="font-bold text-xl mb-2 text-black">{item.title}</div>
                                     <p className="text-black text-base text-justify">
@@ -87,7 +87,6 @@ export function Projects(){
                         )
                     })}
                 </div>
-
             </section>
     )
 }

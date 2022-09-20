@@ -10,7 +10,7 @@ export function About(){
                     <div className="flex-row">
                         <div>
                             <div className="div-avatar">
-                                <img className="avatar css-ghgpv1" src={avatar} alt="Aleix Algueró"/>
+                                <img className="avatar css-ghgpv1" src={avatar} alt="Aleix Algueró" rel="preload"/>
                                 &nbsp;
                                 <div className="p-2 bg-gray-300 rounded-lg mt-0">
                                     <span className="social-links">
