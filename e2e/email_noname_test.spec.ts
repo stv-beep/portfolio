@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test2', async ({ page }) => {
+test('test', async ({ page }) => {
 
   // Go to https://10minutemail.com/
   await page.goto('https://10minutemail.com/');
@@ -11,14 +11,6 @@ test('test2', async ({ page }) => {
   // Go to http://localhost:3000/
   await page.goto('http://localhost:3000/');
 
-  // Click [placeholder="Your name"]
-  await page.locator('[placeholder="Your name"]').click();
-
-  const rnd: string = String(Math.floor(Math.random() * 1000))
-
-  // Fill [placeholder="Your name"]
-  await page.locator('[placeholder="Your name"]').fill('test ' + rnd);
-
   // Click [placeholder="Your email"]
   await page.locator('[placeholder="Your email"]').click();
 
@@ -27,6 +19,8 @@ test('test2', async ({ page }) => {
 
   // Press Tab
   await page.locator('[placeholder="Your email"]').press('Tab');
+
+  const rnd: string = String(Math.floor(Math.random() * 1000))
 
   // Fill textarea[name="message"]
   await page.locator('textarea[name="message"]').fill('test ' + rnd);
