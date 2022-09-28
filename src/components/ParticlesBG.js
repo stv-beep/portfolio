@@ -17,7 +17,7 @@ export default function ParticlesBG() {
       loaded={particlesLoaded}
       options={{
         background: {
-          color: "#373737",
+          color: "#242323",
           position: "center",
           repeat: "no-repeat",
         },
@@ -56,7 +56,7 @@ export default function ParticlesBG() {
             color: '#61EFA4',
             distance: 250,
             enable: true,
-            opacity: 0.6,
+            opacity: 0.4,
             width: 2,
           },
           collisions: {
@@ -69,7 +69,7 @@ export default function ParticlesBG() {
               default: "bounce",
             },
             random: false,
-            speed: 0.25,
+            speed: 0.18,
             straight: true,
           },
           number: {
@@ -77,16 +77,23 @@ export default function ParticlesBG() {
               enable: true,
               area: 1000,
             },
-            value: 60, /* number of lines */
+            value: 40, /* number of lines */
           },
           opacity: {
             value: 1,
           },
           shape: {
-            type: "triangle",
+            type: "polygon",
+          "stroke": {
+              "width": 1,
+              "color": "#C3C3C3"
+           },
+           "polygon": {
+              "nb_sides": 5
+           },
           },
           size: {
-            value: { min: 1, max: 1 },
+            value: { min: 1, max: 3 },
           },
         },
         detectRetina: true,
