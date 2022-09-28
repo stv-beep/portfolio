@@ -66,7 +66,7 @@ export function Contact() {
                             />
                         </label>
                         <label className="block mb-6">
-                            <span className="text-gray-700">Email address</span>
+                            <span className="text-gray-700">Email address</span><span className="text-red-700"> *</span>
                             <input onChange={(e) => setEmail(e.target.value)} value={email}
                             name="userEmail"
                             type="email"
@@ -76,7 +76,7 @@ export function Contact() {
                             />
                         </label>
                         <label className="block mb-6">
-                            <span className="text-gray-700">Message</span>
+                            <span className="text-gray-700">Message</span><span className="text-red-700"> *</span>
                             <textarea onChange={(e) => setMessage(e.target.value)} value={message}
                             name="message"
                             className=" appearance-none block w-full bg-gray-300 text-gray-900 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"

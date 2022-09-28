@@ -22,12 +22,24 @@ export function Projects(){
             title: 'F1 drivers quotes API',
             image: '/static/media/f1quotesapi.f4fe933454f0a398b165.png',
             link: 'https://rapidapi.com/aleixalguero0/api/f1-drivers-quotes/',
-            text: 'An API that provides +5000 lines of quotes cited by numerous Formula 1 drivers and personalities.',
+            text: 'An API that provides +5000 lines of quotes cited by numerous Formula 1 drivers and personalities. The user can request 10 F1-topic quotes, all the quotes of a driver, some quotes of a driver with pagination or a single quote if the quote ID is provided.',
             buttonText: 'RapidAPI',
             languages: [{ alt: 'TypeScript', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
                 { alt: 'NodeJS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
                 { alt: 'Express', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'}],
             type: 'Backend'
+        },
+        {
+            title: 'Employee hours tracking app',
+            image: '/static/media/timetrack.06a0b68fb11258c7d92a.png',
+            link: 'https://github.com/stv-beep/nath',
+            text: 'Work hours registration application. Different shifts during the day and different tasks, each one with its registration. In addition, an administration and consultation area. Currently used in a company.',
+            buttonText: 'Source code',
+            languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
+                { alt: 'JavaScript', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+                { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
+                { alt: 'MySQL', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'}],
+            type: 'Full Stack'
         },
         {
             title: 'Kimi Räikkönen Quotes',
@@ -38,18 +50,6 @@ export function Projects(){
             languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'}],
             type: 'Frontend'
         },
-        {
-            title: 'Input and tracking working time app',
-            image: '/static/media/timetrack.eb7aca5726655b08e54b.png',
-            link: 'https://github.com/stv-beep/nath',
-            text: 'Working time, shifts and tracking app currently used in a company.',
-            buttonText: 'Source code',
-            languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
-                { alt: 'JavaScript', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
-                { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
-                { alt: 'MySQL', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'}],
-            type: 'Full Stack'
-        }
     ]
 
 
