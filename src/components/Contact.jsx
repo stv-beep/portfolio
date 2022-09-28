@@ -53,33 +53,33 @@ export function Contact() {
     return (
         <section className="pt-36 montserrat lg:mx-36" id="contact">
             <h2 className="text-center text-2xl section-title">Contact me</h2>
-            <div className="w-full md:w-96 md:max-w-full mx-auto">
-                <div className="p-6 border border-gray-300 bg-gray-200 sm:rounded-md rounded-3xl shadow-xl md:rounded-md">
+            <div className="md:max-w-full mx-auto">
+                <div className="p-6 border border-gray-300 bg-white-rgba rounded-3xl shadow-xl">
                     <form onSubmit={handleSubmit}>
                         <label className="block mb-6">
-                        <span className="text-gray-700">Name</span>
+                            <strong className="text-gray-700">Name</strong>
                             <input onChange={(e) => setName(e.target.value)} value={name}
                             type="text"
                             name="name"
-                            className="appearance-none block w-full bg-gray-300 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                            className="appearance-none block w-full bg-slate-100 text-black border border-gray-400 rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                             placeholder="Your name"
                             />
                         </label>
                         <label className="block mb-6">
-                            <span className="text-gray-700">Email address</span><span className="text-red-700"> *</span>
+                            <strong className="text-gray-700">Email address</strong><span className="text-red-700"> *</span>
                             <input onChange={(e) => setEmail(e.target.value)} value={email}
                             name="userEmail"
                             type="email"
-                            className="appearance-none block w-full bg-gray-300 text-gray-900 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            className="appearance-none block w-full bg-slate-100 text-black border border-gray-400 rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                             placeholder="Your email"
                             required
                             />
                         </label>
                         <label className="block mb-6">
-                            <span className="text-gray-700">Message</span><span className="text-red-700"> *</span>
+                            <strong className="text-gray-700">Message</strong><span className="text-red-700"> *</span>
                             <textarea onChange={(e) => setMessage(e.target.value)} value={message}
                             name="message"
-                            className=" appearance-none block w-full bg-gray-300 text-gray-900 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                            className="appearance-none block w-full bg-slate-100 text-black border border-gray-400 rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                             rows="3"
                             placeholder="Your message"
                             required
