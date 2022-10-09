@@ -1,7 +1,9 @@
 import initlab from '../images/initlab.png'
 import f1quotes from '../images/f1quotesapi.png'
-import kimiquotes from '../images/kimiquotes.png'
 import timetrack from '../images/timetrack.png'
+import portfolio from '../images/portfolio.png'
+import pwdgenerator from '../images/pwdgenerator.png'
+import kimiquotes from '../images/kimiquotes.png'
 
 export function Projects(){
 
@@ -42,17 +44,35 @@ export function Projects(){
             type: 'Full Stack'
         },
         {
+            title: 'This portfolio',
+            image: '/static/media/portfolio.d42e24ce1b85c44b36a2.png',
+            link: 'https://github.com/stv-beep/portfolio',
+            text: 'My portfolio. The website you are on right now.',
+            buttonText: 'Source code',
+            languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+                { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
+            type: 'Frontend'
+        },
+        {
+            title: 'Random password generator',
+            image: '/static/media/pwdgenerator.74fe895f54c3239b3a0e.png',
+            link: 'https://hacktoberfest-2022.vercel.app/entry/stv-beep',
+            text: 'Simple, but effective random password generator.',
+            buttonText: 'Source code',
+            languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
+                { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
+            type: 'Frontend'
+        },
+        {
             title: 'Kimi Räikkönen Quotes',
             image: '/static/media/kimiquotes.913c928c464f202718f1.png',
             link: 'https://github.com/stv-beep/Vue-PublicAPI',
-            text: 'Simple, but funny app which shows the best quotes said by Finnish former Formula 1 driver Kimi Räikkönen during race or at interviews.',
+            text: 'Funny app which shows the best quotes said by Finnish former Formula 1 driver Kimi Räikkönen during race or at interviews.',
             buttonText: 'Source code',
             languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'}],
             type: 'Frontend'
         },
     ]
-
-
 
 
     return (
@@ -80,7 +100,7 @@ export function Projects(){
                                             <img className="inline-block h-10 w-10 p-1 m-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt}/>
                                             )
                                     })}
-                                    <p className="projectType text-right">{item.type}</p>
+                                    <p className="projectType text-right">{item.type}</p>    
                                 </div>
                             </div>
                             </a>
