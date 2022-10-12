@@ -1,4 +1,4 @@
-import { technologies, stack, learning } from "./technologies";
+import { technologies } from "./technologies";
 
 export function Skills(){
     return (
@@ -7,13 +7,12 @@ export function Skills(){
 
                 <div className="grid grid-flow-col mb-36 bg-slate-100 rounded-2xl shadow-xl">
                     <div>
-                        <div className="skillsIcons grid sm:grid-cols-3 lg:grid-cols-6 gap-4 section-stack py-10 px-0 skillsGrid">
+                        <div className="skillsIcons gap-4 section-stack sm:w-[90%] lg:w-[40%] py-10 px-8">
                             {technologies.map((item, index) => {
                                 return (
-                                    <img key={index} src={item.src} alt={item.name} className="p-2 bg-slate-200 shadow-md rounded-sm w-full h-full"></img>
+                                    <img key={index} src={item.src} alt={item.name} title={item.name} className="p-2 bg-slate-200 shadow-md rounded-sm w-full h-full"></img>
                                 );
                             })}
-
                         </div>
                     </div>
                 </div>
