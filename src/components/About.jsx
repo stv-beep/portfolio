@@ -30,13 +30,15 @@ export function About(){
                                         <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-green-400">
                                         Web Developer and SysAdmin</span>
                                     </div>
+                                    <p className='italic text-xl bg-clip-text text-transparent bg-gradient-to-r
+                                     from-green-200 via-green-300 to-green-400'>
+                                        "Always trying to improve myself and those around me."</p>
                                     <br/>
-                                    <p className="text-lg montserrat text-white">
-                                    Technology enthusiast. I started reparing computers and I realised that I loved this. 
-                                    Then, I studied Administration of Computer Network Systems and I also liked it, and later, 
-                                    Web Development, which I liked even more. I enjoy helping people with computer incidents 
-                                    that their may have or developing their ideas through an app. 
-                                    Always trying to improve myself and those around me.
+                                    <p className="text-lg montserrat text-white text-justify">
+                                        Technology enthusiast. I started repairing computers and realized that I loved this. 
+                                        Then I studied Computer Network Systems Administration and I also liked it, 
+                                        and then Web Development, which I liked even more. I enjoy helping people 
+                                        by solving IT problems that they may have or developing their ideas through an app.
                                     </p>
                                     
                                 </div>
