@@ -6,6 +6,7 @@ import { Footer } from './components/Footer'
 import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
 import { Contact } from './components/Contact';
+import ScrollButton from './components/ScrollButton';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <header className="App-header">
         <About/>
       </header>
+        <ScrollButton/>
         <Skills/> 
         <Projects/>
         <Contact/>
