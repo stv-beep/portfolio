@@ -85,8 +85,8 @@ export function Projects(){
                     {projects.map((item, index) => {
                         return (
                             <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
-                            hover:bg-neutral-100 hover:scale-95 hover:shadow-green-100 hover:shadow-lg">
-                            <div key={index}>
+                            hover:bg-neutral-100 hover:scale-95 hover:shadow-green-100 hover:shadow-lg" key={index}>
+                            <div>
                                 <img className="w-full h-full" src={item.image} alt={item.title}/>
                                 <div className="px-6 py-4">
                                     <div className="font-bold text-xl mb-2 text-black">{item.title}</div>
@@ -97,7 +97,7 @@ export function Projects(){
                                 <div className="px-6 pt-4 pb-4">
                                     {item.languages.map(({img, alt}) => {
                                         return (
-                                            <img className="inline-block h-10 w-10 p-1 m-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt}/>
+                                            <img className="inline-block h-10 w-10 p-1 m-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt} key={alt}/>
                                             )
                                     })}
                                     <p className="projectType text-right">{item.type}</p>    

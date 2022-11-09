@@ -45,9 +45,15 @@ nav li {
     padding-right: 0.1rem;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 350px) {
   nav li {
     font-size: 9px;
+    padding-right: 0.1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  nav li {
+    font-size: 8px;
     padding-right: 0.1rem;
   }
 }

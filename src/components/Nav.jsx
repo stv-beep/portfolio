@@ -34,8 +34,8 @@ export function Nav(){
               <ul>
                   {MenuItems.map((item, index) => {
                       return (
-                              <a className="text-white p-1 text-2xl hover:text-black" href={item.url} style={{padding:"0px"}}>
-                                <li key={index} className="inline list-none px-2 py-1 hover:bg-white hover:rounded-sm">
+                              <a className="text-white p-1 text-2xl hover:text-black" href={item.url} style={{padding:"0px"}} key={index}>
+                                <li className="inline list-none px-2 py-1 hover:bg-white hover:rounded-sm">
                                 {item.Title}
                                 </li>
                               </a>
