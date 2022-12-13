@@ -1,6 +1,3 @@
-import logo from '../images/react.png'
-
-
 export function Footer(){
     return (
             <footer className="flex items-center justify-center h-24 min-h-full bottom-0 w-full mt-28">
@@ -27,10 +24,7 @@ export function Footer(){
                     -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 
                     0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
                     </path></svg></a>                
-                    <p className="text-white">Made with ❤&nbsp;</p><img src={logo} className="h-4 w-4" alt="React"></img>
-                    &nbsp;
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" className="h-4 w-4"
-                    alt="Tailwind"/>
+                    <p className="text-white">Made with ❤</p>
                     <p className="text-white">&nbsp;by Aleix Algueró</p>
             </footer>
     )
