@@ -9,22 +9,10 @@ export function Projects(){
 
     const projects = [
         {
-            title: 'Initlab',
-            image: '/static/media/initlab.f9380e64d40b8f506998.png',
-            link: 'https://www.initlab.cat',
-            text: 'An app for managing a fab lab. It is a platform and a meeting point of talented people and revolutionary ideas from our region. A place to share and have access to manufacturing tools to facilitate the work of manufacturing physical items. A training space for young and old. Meeting point of society, industry and education.',
-            buttonText: 'Demo',
-            languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
-                { alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
-                { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
-                { alt: 'MySQL', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'}],
-            type: 'Full Stack'
-        },
-        {
             title: 'F1 drivers quotes API',
             image: '/static/media/f1quotesapi.f4fe933454f0a398b165.png',
             link: 'https://rapidapi.com/aleixalguero0/api/f1-drivers-quotes/',
-            text: 'An API that provides +5000 lines of quotes cited by numerous Formula 1 drivers and personalities. The user can request 10 F1-topic quotes, all the quotes of a driver, some quotes of a driver with pagination or a single quote if the quote ID is provided.',
+            text: 'An API that provides +5000 lines of quotes cited by +60 Formula 1 drivers and personalities. The user can request 10 F1-topic quotes, all the quotes of a driver, some quotes of a driver with pagination or a single quote if the quote ID is provided.',
             buttonText: 'RapidAPI',
             languages: [{ alt: 'TypeScript', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
                 { alt: 'NodeJS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
@@ -44,22 +32,34 @@ export function Projects(){
             type: 'Full Stack'
         },
         {
-            title: 'This portfolio',
-            image: '/static/media/portfolio.d42e24ce1b85c44b36a2.png',
-            link: 'https://github.com/stv-beep/portfolio',
-            text: 'My portfolio. The website you are on right now.',
-            buttonText: 'Source code',
-            languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
-                { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
-            type: 'Frontend'
-        },
-        {
             title: 'Random password generator',
             image: '/static/media/pwdgenerator.74fe895f54c3239b3a0e.png',
             link: 'https://hacktoberfest-2022.vercel.app/entry/stv-beep',
             text: 'Simple, but effective random password generator.',
             buttonText: 'Source code',
             languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
+                { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
+            type: 'Frontend'
+        },
+        {
+            title: 'Initlab',
+            image: '/static/media/initlab.f9380e64d40b8f506998.png',
+            link: 'https://www.initlab.cat',
+            text: 'An app for managing a fab lab. It is a platform and a meeting point of talented people and revolutionary ideas from our region. A place to share and have access to manufacturing tools to facilitate the work of manufacturing physical items. A training space for young and old. Meeting point of society, industry and education.',
+            buttonText: 'Demo',
+            languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
+                { alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
+                { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
+                { alt: 'MySQL', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'}],
+            type: 'Full Stack'
+        },
+        {
+            title: 'This portfolio',
+            image: '/static/media/portfolio.d42e24ce1b85c44b36a2.png',
+            link: 'https://github.com/stv-beep/portfolio',
+            text: 'My portfolio. The website you are on right now.',
+            buttonText: 'Source code',
+            languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
                 { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
             type: 'Frontend'
         },
@@ -71,7 +71,7 @@ export function Projects(){
             buttonText: 'Source code',
             languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'}],
             type: 'Frontend'
-        },
+        }
     ]
 
 
