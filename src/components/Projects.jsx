@@ -76,7 +76,7 @@ export function Projects(){
 
 
     return (
-            <section className="projects pt-36 2xl:mx-36 lg:mx-36 md:mx-0" id="projects">
+            <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0" id="projects">
                 <h2 className="text-center text-2xl section-title">My projects</h2>
                 
                 <div className="lg:p-10 p-4 sm:m-1 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 
@@ -85,7 +85,7 @@ export function Projects(){
                     {projects.map((item, index) => {
                         return (
                             <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
-                            hover:bg-neutral-100 hover:scale-95 hover:shadow-green-100 hover:shadow-lg" key={index}>
+                            hover:bg-neutral-100 hover:scale-95 hover:shadow-green-100 hover:shadow-lg" key={index} rel="noreferrer">
                             <div>
                                 <img className="w-full h-full" src={item.image} alt={item.title}/>
                                 <div className="px-6 py-4">
