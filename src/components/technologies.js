@@ -47,14 +47,18 @@ export const technologies = [
         name: 'Tailwindcss',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
     },
-    { 
-        name: 'ExpressJS',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
-    },
     {
         name: 'TypeScript',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
     },
+    { 
+        name: 'jQuery',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg'
+    },
+    { 
+        name: 'ExpressJS',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
+    },  
     {
         name: 'Git',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
