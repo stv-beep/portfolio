@@ -1,16 +1,18 @@
-import initlab from '../images/initlab.png'
 import f1quotes from '../images/f1quotesapi.png'
 import timetrack from '../images/timetrack.png'
-import portfolio from '../images/portfolio.png'
 import pwdgenerator from '../images/pwdgenerator.png'
+import initlab from '../images/initlab.png'
+import portfolio from '../images/portfolio.png'
 import kimiquotes from '../images/kimiquotes.png'
 
 export function Projects(){
 
+    const images = [f1quotes, timetrack, pwdgenerator, initlab, portfolio, kimiquotes]
+
     const projects = [
         {
             title: 'F1 drivers quotes API',
-            image: '/static/media/f1quotesapi.f4fe933454f0a398b165.png',
+            image: images[0],
             link: 'https://rapidapi.com/aleixalguero0/api/f1-drivers-quotes/',
             text: 'An API that provides +5000 lines of quotes cited by +60 Formula 1 drivers and personalities. The user can request 10 F1-topic quotes, all the quotes of a driver, some quotes of a driver with pagination or a single quote if the quote ID is provided.',
             buttonText: 'RapidAPI',
@@ -21,7 +23,7 @@ export function Projects(){
         },
         {
             title: 'Employee hours tracking app',
-            image: '/static/media/timetrack.06a0b68fb11258c7d92a.png',
+            image: images[1],
             link: 'https://github.com/stv-beep/nath',
             text: 'Work hours registration application. Different shifts during the day and different tasks, each one with its registration. In addition, an administration and consultation area. Currently used in a company.',
             buttonText: 'Source code',
@@ -34,7 +36,7 @@ export function Projects(){
         },
         {
             title: 'Random password generator',
-            image: '/static/media/pwdgenerator.74fe895f54c3239b3a0e.png',
+            image: images[2],
             link: 'https://hacktoberfest-2022.vercel.app/entry/stv-beep',
             text: 'Simple, but effective random password generator.',
             buttonText: 'Source code',
@@ -44,7 +46,7 @@ export function Projects(){
         },
         {
             title: 'Initlab',
-            image: '/static/media/initlab.f9380e64d40b8f506998.png',
+            image: images[3],
             link: 'https://www.initlab.cat',
             text: 'An app for managing a fab lab. It is a platform and a meeting point of talented people and revolutionary ideas from our region. A place to share and have access to manufacturing tools to facilitate the work of manufacturing physical items. A training space for young and old. Meeting point of society, industry and education.',
             buttonText: 'Demo',
@@ -56,7 +58,7 @@ export function Projects(){
         },
         {
             title: 'This portfolio',
-            image: '/static/media/portfolio.d42e24ce1b85c44b36a2.png',
+            image: images[4],
             link: 'https://github.com/stv-beep/portfolio',
             text: 'My portfolio. The website you are on right now.',
             buttonText: 'Source code',
@@ -66,7 +68,7 @@ export function Projects(){
         },
         {
             title: 'Kimi Räikkönen Quotes',
-            image: '/static/media/kimiquotes.913c928c464f202718f1.png',
+            image: images[5],
             link: 'https://github.com/stv-beep/Vue-PublicAPI',
             text: 'Funny app which shows the best quotes said by Finnish former Formula 1 driver Kimi Räikkönen during race or at interviews.',
             buttonText: 'Source code',
@@ -88,7 +90,7 @@ export function Projects(){
                             <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
                             hover:bg-neutral-100 hover:scale-95 hover:shadow-green-100 hover:shadow-lg" key={index} rel="noreferrer">
                             <div>
-                                <img className="w-full h-full" src={item.image} alt={item.title}/>
+                                <img className="aspect-video" src={item.image} alt={item.title}/>
                                 <div className="px-6 py-4">
                                     <div className="font-bold text-xl mb-2 text-black">{item.title}</div>
                                     <p className="text-black text-base text-justify">
@@ -101,7 +103,7 @@ export function Projects(){
                                             <img className="inline-block h-10 w-10 p-1 m-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt} key={alt}/>
                                             )
                                     })}
-                                    <p className="projectType text-right">{item.type}</p>    
+                                    <p className="projectType text-right">{item.type}</p>
                                 </div>
                             </div>
                             </a>

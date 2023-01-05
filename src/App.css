@@ -90,14 +90,9 @@ nav li {
 .avatar {
   border: 5px solid #101010;
   margin: auto;
-  max-height: 300px;
-  max-width: 300px;
-}
-
-.css-ghgpv1 {
+  max-height: 270px;
+  max-width: 270px;
   border-radius: 100%;
-  width: 250px;
-  height: 250px;
 }
 
 .div-avatar {
