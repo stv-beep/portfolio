@@ -66,5 +66,9 @@ export const technologies = [
     {
         name: 'Apache',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg'
+    },
+    {
+        name: 'Bash',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
     }
 ]
