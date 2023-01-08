@@ -8,6 +8,10 @@ module.exports = {
       colors: {
         'white-rgba': 'rgba(229, 231, 235, 0.80)'
       },
+      screens: {
+        'xs': {'max': '540px'},
+        'xxs': {'max': '400px'}
+      },
     },
   },
   plugins: [],

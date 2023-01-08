@@ -25,7 +25,7 @@ export function About(){
                         </div>
                         
                         <Atropos className="about-info">
-                            <div className="box">
+                            <div className="box p-[40px] xs:p-[25px]">
                                 <div className="py-3 lg:contrast-200">
                                     <p className="montserrat font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-400 to-green-600" data-atropos-offset='2'>ALEIX ALGUERÓ</p>
                                     <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-green-400" data-atropos-offset='4'>
@@ -35,7 +35,7 @@ export function About(){
                                     from-green-200 via-green-300 to-green-400 lg:contrast-200' data-atropos-offset='5'>
                                     "Always trying to improve myself and those around me."</p>
                                 <br/>
-                                <p className="xl:text-lg sm:text-sm montserrat text-white text-justify aboutme" data-atropos-offset='2'>
+                                <p className="xl:text-lg md:text-base sm:text-sm xs:text-sm xxs:text-[12px] montserrat text-white text-justify aboutme" data-atropos-offset='2'>
                                     Technology enthusiast. I started repairing computers and realized that I loved this. 
                                     Then I studied Computer Network Systems Administration and I also liked it, 
                                     and then Web Development, which I liked even more. I enjoy helping people 
