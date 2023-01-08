@@ -96,10 +96,6 @@ nav li {
   justify-content: space-evenly;
 }
 
-.about-info {
-  width: 50%;
-}
-
 .box {
   background: rgba(14, 14, 14, 0.7);
   box-shadow: 0px 0px 30px 5px #15151552;

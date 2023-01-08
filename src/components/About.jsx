@@ -9,7 +9,7 @@ export function About(){
             <section id="about">
                 <div className="full-width">
                     <ParticlesBG/>
-                    <div className="flex-row">
+                    <div className="flex-row s:flex-col items-center">
                         <div>
                             <div className="div-avatar">
                                 <img className="rounded-full m-auto border-solid border-4 border-gray-100 w-[270px] aspect-square" src={avatar} alt="Aleix Algueró"/>
@@ -24,7 +24,7 @@ export function About(){
                             </div>
                         </div>
                         
-                        <Atropos className="about-info">
+                        <Atropos className="w-[50%] s:mt-8 s:w-[95%] xs:w-[100%]">
                             <div className="box p-[40px] xs:p-[25px]">
                                 <div className="py-3 lg:contrast-200">
                                     <p className="montserrat font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-400 to-green-600" data-atropos-offset='2'>ALEIX ALGUERÓ</p>
