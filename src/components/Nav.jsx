@@ -6,22 +6,22 @@ const a = '<AA/>'
 const MenuItems = [
     {
       Title: "<About me/>",
-      url: "#about",
+      url: "/#about",
       cName: "nav-links"
     },
     {
       Title: "<Skills/>",
-      url: "#skills",
+      url: "/#skills",
       cName: "nav-links"
     },
     {
       Title: "<Projects/>",
-      url: "#projects",
+      url: "/#projects",
       cName: "nav-links"
     },
     {
       Title: "<Contact me/>",
-      url: "#contact",
+      url: "/#contact",
       cName: "nav-links"
     }
   ];
