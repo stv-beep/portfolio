@@ -14,17 +14,6 @@ html {
 }
 
 
-.App-header {
-  min-height: 1vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
 /* nav */
 nav {
   font-family: 'Righteous';
@@ -102,6 +91,7 @@ nav li {
   border-radius: 3px;
   color: #000;
   backdrop-filter: blur(3px);
+  font-size: calc(10px + 2vmin);
 }
 
 @media (max-width: 510px) {

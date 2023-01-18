@@ -12,14 +12,12 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-      <header className="App-header">
-        <About/>
-      </header>
-        <ScrollButton/>
-        <Skills/> 
-        <Projects/>
-        <Contact/>
-        <Footer/>
+      <About/>
+      <ScrollButton/>
+      <Skills/> 
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
