@@ -5,7 +5,7 @@ export function Cookies() {
     return (
         <>
             <Nav />
-            <div className="pb-36">
+            <div className="pb-2">
                 <h1 className="text-black text-3xl px-10 py-6">Español</h1>
                 <div>
                     <h1 className="text-black text-2xl px-10 pb-6">Política de cookies</h1>
@@ -42,7 +42,7 @@ export function Cookies() {
                     </div>
                 </div>
             </div>
-            <div className=" bottom-0 w-full">
+            <div className="2xl:fixed bottom-0 left-0 w-full">
                 <Footer />
             </div>
         </>

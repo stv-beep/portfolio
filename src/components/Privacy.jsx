@@ -216,7 +216,7 @@ export function Privacy() {
 
             </div>
 
-            <div className="absolute w-full">
+            <div className="bottom-0 left-0 w-full">
                 <Footer/>
             </div>
         </>
