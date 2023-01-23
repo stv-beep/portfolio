@@ -16,9 +16,10 @@ export function About(){
                                 &nbsp;
                                 <div className="p-2 bg-gray-200 rounded-lg mt-0">
                                     <span className="social-links">
-                                        <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" className="btn">
+                                        <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" className="btn" rel="noreferrer">
                                             <i className="devicon-linkedin-plain"></i></a>
-                                        <a href="https://github.com/stv-beep" target="_blank" className="btn"><i className="devicon-github-original"></i></a>
+                                        <a href="https://github.com/stv-beep" target="_blank" className="btn" rel="noreferrer">
+                                            <i className="devicon-github-original"></i></a>
                                     </span>
                                 </div>
                             </div>
