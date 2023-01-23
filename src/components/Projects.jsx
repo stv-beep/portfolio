@@ -1,20 +1,17 @@
 import f1quotes from '../images/f1quotesapi.png'
 import timetrack from '../images/timetrack.png'
 import pwdgenerator from '../images/pwdgenerator.png'
-import initlab from '../images/initlab.png'
-import portfolio from '../images/portfolio.png'
-import kimiquotes from '../images/kimiquotes.png'
 
 export function Projects(){
 
-    const images = [f1quotes, timetrack, pwdgenerator, initlab, portfolio, kimiquotes]
+    const images = [f1quotes, timetrack, pwdgenerator]
 
     const projects = [
         {
             title: 'F1 drivers quotes API',
             image: images[0],
             link: 'https://rapidapi.com/aleixalguero0/api/f1-drivers-quotes/',
-            text: 'An API that provides +5000 lines of quotes cited by +60 Formula 1 drivers and personalities. The user can request 10 F1-topic quotes, all the quotes of a driver, some quotes of a driver with pagination or a single quote if the quote ID is provided.',
+            text: 'An API that provides +5000 lines of quotes cited by +70 Formula 1 drivers and personalities. The user can request 10 F1-topic quotes, all the quotes of a driver, some quotes of a driver with pagination or a single quote if the quote ID is provided.',
             buttonText: 'RapidAPI',
             languages: [{ alt: 'TypeScript', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
                 { alt: 'NodeJS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
@@ -43,73 +40,41 @@ export function Projects(){
             languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
                 { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
             type: 'Frontend'
-        },
-        {
-            title: 'Initlab',
-            image: images[3],
-            link: 'https://www.initlab.cat',
-            text: 'An app for managing a fab lab. It is a platform and a meeting point of talented people and revolutionary ideas from our region. A place to share and have access to manufacturing tools to facilitate the work of manufacturing physical items. A training space for young and old. Meeting point of society, industry and education.',
-            buttonText: 'Demo',
-            languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
-                { alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
-                { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
-                { alt: 'MySQL', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg'}],
-            type: 'Full Stack'
-        },
-        {
-            title: 'This portfolio',
-            image: images[4],
-            link: 'https://github.com/stv-beep/portfolio',
-            text: 'My portfolio. The website you are on right now.',
-            buttonText: 'Source code',
-            languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
-                { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
-            type: 'Frontend'
-        },
-        {
-            title: 'Kimi Räikkönen Quotes',
-            image: images[5],
-            link: 'https://github.com/stv-beep/Vue-PublicAPI',
-            text: 'Funny app which shows the best quotes said by Finnish former Formula 1 driver Kimi Räikkönen during race or at interviews.',
-            buttonText: 'Source code',
-            languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'}],
-            type: 'Frontend'
         }
     ]
 
-
     return (
-            <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0" id="projects">
-                <h2 className="text-center text-2xl section-title">My projects</h2>
-                
-                <div className="lg:p-10 p-4 sm:m-1 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 
+        <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0" id="projects">
+            <h2 className="text-center text-2xl section-title">My projects</h2>
+
+            <div className="lg:p-10 p-4 sm:m-1 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 
                 gap-5 bg-gray-200 rounded-3xl shadow-xl">
-        
-                    {projects.map((item, index) => {
-                        return (
-                            <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
+
+                {projects.map((item, index) => {
+                    return (
+                        <a href={item.link} target="_blank" className="card overflow-hidden shadow-lg bg-neutral-50 rounded-2xl 
                             hover:bg-neutral-100 hover:scale-95 hover:shadow-green-100 hover:shadow-lg" key={index} rel="noreferrer">
                             <div>
-                                <img className="aspect-video" src={item.image} alt={item.title}/>
+                                <img className="aspect-video" src={item.image} alt={item.title} />
                                 <div className="px-6 py-4">
                                     <div className="font-bold text-xl mb-2 text-black">{item.title}</div>
                                     <p className="text-black text-base text-justify">
-                                    {item.text}
+                                        {item.text}
                                     </p>
                                 </div>
                                 <div className="px-6 pt-4 pb-4">
-                                    {item.languages.map(({img, alt}) => {
+                                    {item.languages.map(({ img, alt }) => {
                                         return (
-                                            <img className="inline-block h-10 w-10 p-1 m-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt} key={alt}/>
-                                            )
+                                            <img className="inline-block h-10 w-10 p-1 m-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt} key={alt} />
+                                        )
                                     })}
                                     <p className="projectType text-right">{item.type}</p>
                                 </div>
                             </div>
-                            </a>
-                        )
-                    })}
-                </div>
-            </section>
+                        </a>
+                    )
+                })}
+            </div>
+        </section>
     )
 }
