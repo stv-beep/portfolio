@@ -4,7 +4,7 @@ html {
 
 /* scrollbar */
 ::-webkit-scrollbar{
-  background: #61EFA4 !important;
+  background: #fff27d !important;
 }
 ::-webkit-scrollbar-thumb {
   background: black !important;
@@ -187,7 +187,7 @@ nav li {
   bottom:0;
   right:0;
   padding:15px;
-  color:#276042;
+  color:#a49511;
   font-weight: bold;
 }
 

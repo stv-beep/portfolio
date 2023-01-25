@@ -53,7 +53,7 @@ export default function ParticlesBG() {
             value: "#C3C3C3",
           },
           links: {
-            color: '#61EFA4',
+            color: '#F5DF16',
             distance: 250,
             enable: true,
             opacity: 0.4,

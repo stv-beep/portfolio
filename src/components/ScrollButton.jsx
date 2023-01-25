@@ -36,7 +36,7 @@ const ScrollButton = () =>  {
                 type="button"
                 onClick={scrollToTop}
                 style={{display: visible ? 'inline' : 'none'}}
-                className='bg-[#61EFA4] hover:bg-green-400 focus:ring-lime-900 inline-flex items-center  rounded-xl
+                className='bg-[#F5DF16] hover:bg-yellow-500 focus:ring-yellow-600 inline-flex items-center  rounded-xl
                 p-3 text-black hover:text-white shadow-sm transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2'
             >
                 <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />

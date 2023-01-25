@@ -28,12 +28,12 @@ export function About(){
                         <Atropos className="w-[50%] s:mt-8 s:w-[95%] xs:w-[100%]">
                             <div className="box p-[40px] xs:p-[25px]">
                                 <div className="py-3 lg:contrast-200">
-                                    <p className="montserrat font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-400 to-green-600" data-atropos-offset='2'>ALEIX ALGUERÓ</p>
-                                    <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-green-200 via-green-300 to-green-400" data-atropos-offset='4'>
+                                    <p className="montserrat font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-400" data-atropos-offset='2'>ALEIX ALGUERÓ</p>
+                                    <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300" data-atropos-offset='4'>
                                     Web Developer and SysAdmin</span>
                                 </div>
                                 <p className='italic text-xl bg-clip-text text-transparent bg-gradient-to-r
-                                    from-green-200 via-green-300 to-green-400 lg:contrast-200' data-atropos-offset='5'>
+                                    from-yellow-100 via-yellow-200 to-yellow-300 lg:contrast-200' data-atropos-offset='5'>
                                     "Always trying to improve myself and those around me."</p>
                                 <br/>
                                 <p className="xl:text-lg md:text-base sm:text-sm xs:text-sm xxs:text-[12px] montserrat text-white text-justify aboutme" data-atropos-offset='2'>
