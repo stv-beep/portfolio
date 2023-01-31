@@ -2,6 +2,31 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-wrap: normal;
+}
+
+.App {
+  max-width: 1920px;
+  margin: auto;
+}
+
+@media screen and (min-width: 2048px) {
+  .App {
+    max-width: 2048px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .App {
+    max-width: 2560px;
+    margin: auto;
+  }
+}
+
 /* scrollbar */
 ::-webkit-scrollbar{
   background: #fff27d !important;
@@ -172,23 +197,6 @@ nav li {
     margin-right: 3px;
     margin-left: 3px;
   }
-}
-
-.card {
-  transition: transform .3s;
-}
-
-.projectType{
-  visibility: hidden;
-}
-.card:hover .projectType{
-  visibility: visible;
-  position:absolute;
-  bottom:0;
-  right:0;
-  padding:15px;
-  color:#a49511;
-  font-weight: bold;
 }
 
 
