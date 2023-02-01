@@ -51,7 +51,7 @@ export function Contact() {
     };
 
     return (
-        <section className="pt-36 montserrat lg:mx-36" id="contact">
+        <section className="pt-28 montserrat lg:mx-36" id="contact">
             <h2 className="text-center text-2xl section-title">Contact me</h2>
             <div className="md:max-w-full mx-auto">
                 <div className="p-6 border border-gray-300 bg-white-rgba rounded-3xl shadow-xl">
