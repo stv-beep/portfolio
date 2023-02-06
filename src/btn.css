@@ -1,146 +1,141 @@
-/* From uiverse.io by @EmmaxPlay */
 .btn {
-    padding: 0.4em 1em;
-    border: none;
-    outline: none;
-    color: #FFF;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 17px;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 12px;
-    background-color: rgb(46, 46, 46);
-   }
-   
-   .btn::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    
-    background: linear-gradient(
-       45deg,
-       #FF0000, #002BFF, #FF00C8, #002BFF,
-         #FF0000, #002BFF, #FF00C8, #002BFF
-   );
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600%;
-    z-index: -1;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-    opacity: 0;
-    
-   }
-   /* glow */
-   .btn::before {
-    content: "";
-    background-color: rgb(46, 46, 46);
-    background: linear-gradient(
-       45deg,
-       #3e3e3e, #F5DF16, #3e3e3e, #F5DF16, 
-        #3e3e3e, #F5DF16, #F5DF16, #3e3e3e
-   );
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 600%;
-    z-index: -1;
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    filter: blur(8px);
-    animation: glowing 20s linear infinite;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-    opacity: 0;
-   }
-   
-   @keyframes glowing {
-    0% {
-     background-position: 0 0;
-    }
-   
-    50% {
-     background-position: 400% 0;
-    }
-   
-    100% {
-     background-position: 0 0;
-    }
-   }
-   
-   /* hover */
-   .btn:hover::before {
-    opacity: 1;
-   }
-   
-   .btn:active:after {
-    background: transparent;
-   }
-   
-   .btn:active {
-    color: #000;
-    font-weight: bold;
-   }
+       padding: 0.4em 1em;
+       border: none;
+       outline: none;
+       color: #FFF;
+       font-family: inherit;
+       font-weight: 500;
+       font-size: 17px;
+       cursor: pointer;
+       position: relative;
+       z-index: 0;
+       border-radius: 12px;
+       background-color: rgb(46, 46, 46);
+}
+
+.btn::after {
+       content: "";
+       z-index: -1;
+       position: absolute;
+       width: 100%;
+       height: 100%;
+
+       background: linear-gradient(45deg,
+                     #FF0000, #002BFF, #FF00C8, #002BFF,
+                     #FF0000, #002BFF, #FF00C8, #002BFF);
+       left: 0;
+       top: 0;
+       border-radius: 10px;
+       position: absolute;
+       top: -2px;
+       left: -2px;
+       background-size: 600%;
+       z-index: -1;
+       width: calc(100% + 4px);
+       height: calc(100% + 4px);
+       filter: blur(8px);
+       animation: glowing 20s linear infinite;
+       transition: opacity .3s ease-in-out;
+       border-radius: 10px;
+       opacity: 0;
+
+}
+
+/* glow */
+.btn::before {
+       content: "";
+       background-color: rgb(46, 46, 46);
+       background: linear-gradient(45deg,
+                     #3e3e3e, #F5DF16, #3e3e3e, #F5DF16,
+                     #3e3e3e, #F5DF16, #F5DF16, #3e3e3e);
+       position: absolute;
+       top: -2px;
+       left: -2px;
+       background-size: 600%;
+       z-index: -1;
+       width: calc(100% + 4px);
+       height: calc(100% + 4px);
+       filter: blur(8px);
+       animation: glowing 20s linear infinite;
+       transition: opacity .3s ease-in-out;
+       border-radius: 10px;
+       opacity: 0;
+}
+
+@keyframes glowing {
+       0% {
+              background-position: 0 0;
+       }
+
+       50% {
+              background-position: 400% 0;
+       }
+
+       100% {
+              background-position: 0 0;
+       }
+}
+
+/* hover */
+.btn:hover::before {
+       opacity: 1;
+}
+
+.btn:active:after {
+       background: transparent;
+}
+
+.btn:active {
+       color: #000;
+       font-weight: bold;
+}
 
 
 /* contact button */
-/* From uiverse.io */
 .contact-btn {
-  --glow-color: rgb(255, 250, 91);
-  --glow-spread-color: rgba(253, 255, 114, 0.781);
-  --btn-color: rgb(110, 109, 8);
-  border: .25em solid var(--glow-color);
-  padding: 1em 3em;
-  color: var(--glow-color);
-  font-size: 15px;
-  font-weight: bold;
-  background-color: var(--btn-color);
-  border-radius: 1em;
-  outline: none;
-  box-shadow: 0 0 1em .25em var(--glow-color),
-         0 0 4em .1em var(--glow-spread-color),
-         inset 0 0 .75em .25em var(--glow-color);
-  text-shadow: 0 0 .5em var(--glow-color);
-  position: relative;
-  transition: all 0.3s;
- }
- 
- .contact-btn::after {
-  pointer-events: none;
-  content: "";
-  position: absolute;
-  top: 120%;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: var(--glow-spread-color);
-  filter: blur(2em);
-  opacity: .7;
-  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
- }
- 
- .contact-btn:hover {
-  color: var(--btn-color);
-  background-color: var(--glow-color);
-  box-shadow: 0 0 1em .25em var(--glow-color),
-         0 0 4em 2em var(--glow-spread-color),
-         inset 0 0 .75em .25em var(--glow-color);
- }
- 
- .contact-btn:active {
-  box-shadow: 0 0 0.6em .25em var(--glow-color),
-         0 0 2.5em 2em var(--glow-spread-color),
-         inset 0 0 .5em .25em var(--glow-color);
- }
+       --glow-color: rgb(255, 250, 91);
+       --glow-spread-color: rgba(253, 255, 114, 0.781);
+       --btn-color: rgb(110, 109, 8);
+       border: .25em solid var(--glow-color);
+       padding: 1em 3em;
+       color: var(--glow-color);
+       font-size: 15px;
+       font-weight: bold;
+       background-color: var(--btn-color);
+       border-radius: 1em;
+       outline: none;
+       box-shadow: 0 0 1em .25em var(--glow-color),
+              0 0 4em .1em var(--glow-spread-color),
+              inset 0 0 .75em .25em var(--glow-color);
+       text-shadow: 0 0 .5em var(--glow-color);
+       position: relative;
+       transition: all 0.3s;
+}
+
+.contact-btn::after {
+       pointer-events: none;
+       content: "";
+       position: absolute;
+       top: 120%;
+       left: 0;
+       height: 100%;
+       width: 100%;
+       background-color: var(--glow-spread-color);
+       filter: blur(2em);
+       opacity: .7;
+       transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.contact-btn:hover {
+       color: var(--btn-color);
+       background-color: var(--glow-color);
+       box-shadow: 0 0 1em .25em var(--glow-color),
+              0 0 4em 2em var(--glow-spread-color),
+              inset 0 0 .75em .25em var(--glow-color);
+}
+
+.contact-btn:active {
+       box-shadow: 0 0 0.6em .25em var(--glow-color),
+              0 0 2.5em 2em var(--glow-spread-color),
+              inset 0 0 .5em .25em var(--glow-color);
+}

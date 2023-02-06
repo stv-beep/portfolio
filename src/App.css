@@ -40,35 +40,86 @@ html {
 
 
 /* nav */
-nav {
+.nav {
+  width: 100%;
   font-family: 'Righteous';
   background-color: #000000ab;
 }
-nav li {
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
   font-size: 18px;
 }
-@media screen and (max-width: 650px) {
-  nav li {
-    font-size: 13px;
-    padding-right: 0.125rem;
-  }
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
 }
-@media screen and (max-width: 400px) {
-  nav li {
-    font-size: 10px;
-    padding-right: 0.1rem;
-  }
+
+.nav > #nav-check {
+  display: none;
 }
-@media screen and (max-width: 350px) {
-  nav li {
-    font-size: 9px;
-    padding-right: 0.1rem;
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
   }
-}
-@media screen and (max-width: 300px) {
-  nav li {
-    font-size: 8px;
-    padding-right: 0.1rem;
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: #000000ee;
+    cursor: pointer;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid yellow;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #000000ee;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: auto;
+    overflow-y: auto;
   }
 }
 
@@ -215,4 +266,31 @@ footer {
 }
 [data-atropos-offset][data-atropos-opacity] {
   transition-property: transform, opacity
+}
+
+
+/* data titles of technologies */
+[data-title]:hover:after {
+  opacity: 1;
+  transition: all .15s ease .5s;
+  visibility: visible;
+}
+[data-title]:after {
+  content: attr(data-title);
+  background: #000;
+  font-size: 0.8em;
+  font-family: 'Righteous';
+  color: #ffff00;
+  position: absolute;
+  padding: 2px 7px;
+  bottom:-0.8rem;
+  white-space: nowrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.206), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  border-radius: 7px;
+  z-index: 5;
+  visibility: hidden;
+}
+[data-title] {
+  position: relative;
 }

@@ -70,5 +70,9 @@ export const technologies = [
     {
         name: 'Bash',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg'
-    }
+    },
+    {
+        name: 'Ubuntu',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg'
+    }         
 ]
