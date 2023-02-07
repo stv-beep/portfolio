@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 * {
@@ -82,18 +83,19 @@ html {
     position: absolute;
     right: 0px;
     top: 0px;
+    margin-top: -3px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
     width: 50px;
     height: 50px;
-    padding: 13px;
+    padding: 5px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: #000000ee;
+    background: transparent;
     cursor: pointer;
   }
-  .nav > .nav-btn > label > span {
+  .nav > .nav-btn > label > .displayMenu > span {
     display: block;
     width: 25px;
     height: 10px;
@@ -103,11 +105,10 @@ html {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #000000ee;
+    background-color: #000000c2;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 50px;
     left: 0px;
   }
   .nav > .nav-links > a {
@@ -120,7 +121,38 @@ html {
   .nav > #nav-check:checked ~ .nav-links {
     height: auto;
     overflow-y: auto;
+    backdrop-filter: blur(10px);
   }
+}
+
+/* btn display nav */
+.displayMenu {
+  display: flex;
+  flex-direction: column;
+  width: 2.2rem;
+  height: 2rem;
+  border: 0;
+  background: transparent;
+  gap: .65rem;
+}
+
+.displayMenu > div {
+  background:yellow;
+  height: 2px;
+  width: 100%;
+  border-radius: 5px;
+  transition: all .5s;
+  transform-origin: left;
+}
+
+#nav-check:checked ~ .displayMenu div:first-child {
+  transform: rotate(45deg);
+}
+#nav-check:checked ~ .displayMenu div:nth-child(2) {
+  opacity: 0;
+}
+#nav-check:checked ~ .displayMenu div:last-child {
+  transform: rotate(-45deg);
 }
 
 
