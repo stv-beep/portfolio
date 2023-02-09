@@ -51,8 +51,8 @@ export function Contact() {
     };
 
     return (
-        <section className="pt-28 montserrat lg:mx-36" id="contact">
-            <h2 className="text-center text-2xl section-title">Contact me</h2>
+        <section className="pt-28 lg:mx-36" id="contact">
+            <h2 className="text-center text-2xl section-title">Send me a message</h2>
             <div className="md:max-w-full mx-auto">
                 <div className="p-6 border border-gray-300 bg-white-rgba rounded-3xl shadow-xl">
                     <form onSubmit={handleSubmit}>
@@ -62,7 +62,7 @@ export function Contact() {
                             type="text"
                             name="name"
                             className="appearance-none block w-full bg-slate-100 text-black border border-gray-400 rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                            placeholder="Your name"
+                            placeholder="Joe Doe"
                             />
                         </label>
                         <label className="block mb-6">
@@ -71,7 +71,7 @@ export function Contact() {
                             name="userEmail"
                             type="email"
                             className="appearance-none block w-full bg-slate-100 text-black border border-gray-400 rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                            placeholder="Your email"
+                            placeholder="example@example.com"
                             required
                             />
                         </label>
@@ -81,7 +81,7 @@ export function Contact() {
                             name="message"
                             className="appearance-none block w-full bg-slate-100 text-black border border-gray-400 rounded-md py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                             rows="3"
-                            placeholder="Your message"
+                            placeholder="I contact you because..."
                             required
                             ></textarea>
                             <p className="text-gray-900 text-xs italic font-semibold">You can talk to me with English, Spanish or Catalan!</p>

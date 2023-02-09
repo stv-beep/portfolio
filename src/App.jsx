@@ -7,6 +7,7 @@ import { Skills } from './components/Skills'
 import { Projects } from './components/Projects'
 import { Contact } from './components/Contact';
 import ScrollButton from './components/ScrollButton';
+import './fonts/style.css'
 
 function App() {
   return (

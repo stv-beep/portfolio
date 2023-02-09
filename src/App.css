@@ -157,12 +157,8 @@ html {
 
 
 /* about */
-.alfa {
-  font-family: 'Alfa Slab One', cursive;
-}
-
-.montserrat {
-  font-family: 'Montserrat', sans-serif;
+#about p, #about span {
+  font-family: "SF UI Text Medium", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
 }
 
 .full-width {
@@ -238,11 +234,6 @@ html {
 
 
 /* skills */
-.skills h2 {
-  font-family: 'Righteous', sans-serif;
-  color:azure;
-  margin: 0 auto 25px;
-}
 .skills {
   margin-right: 9rem;
   margin-left: 9rem;
@@ -270,7 +261,11 @@ html {
 }
 
 
-/* projects */
+/* projects section*/
+.projects h3 {
+  font-family: "SF UI Text Medium", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+}
+
 @media screen and (max-width: 650px) {
   .projects {
     margin-right: 3px;
@@ -280,6 +275,11 @@ html {
     margin-right: 3px;
     margin-left: 3px;
   }
+}
+
+/* contact section */
+#contact {
+  font-family: "SF UI Text Medium", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
 }
 
 

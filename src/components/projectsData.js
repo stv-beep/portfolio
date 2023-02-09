@@ -22,7 +22,7 @@ export const projects = [
         title: 'Employee hours tracking app',
         image: images[1],
         sourceCode: 'https://github.com/stv-beep/nath',
-        text: 'Work hours registration application for a company of clothing storage and distribution. Different shifts during the day and different tasks, each one with its registration. In addition, an administration and consultation area. Currently used in a company. There is no demo at the moment.',
+        text: 'Work hours registration application for a company of clothing storage and distribution. Different shifts during the day and different tasks, each one with its registration. In addition, an administration and consultation area. Currently used in a company.',
         buttonText: 'Source code',
         languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
             { alt: 'JavaScript', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},

@@ -9,7 +9,7 @@ export function Footer(){
                 </footer>
                 <footer className="flex items-center justify-center h-24 min-h-full w-full">                    
 
-                    <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" 
+                    <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" rel="noreferrer"
                     className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
                         <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
                         strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6 text-white" height="1em" 
@@ -19,7 +19,7 @@ export function Footer(){
                         x2="8" y2="8.01"></line><line x1="12" y1="16" x2="12" y2="11"></line>
                         <path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
 
-                    <a href="https://github.com/stv-beep" target="_blank" 
+                    <a href="https://github.com/stv-beep" target="_blank" rel="noreferrer"
                     className="hover:scale-125 transition-all text-skin-500 hover:text-skin-700">
                         <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" 
                         strokeLinecap="round" strokeLinejoin="round" className="text-4xl mx-6 text-white" 
