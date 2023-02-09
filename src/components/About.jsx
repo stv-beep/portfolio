@@ -12,7 +12,7 @@ export function About() {
                 <div className="flex-row s:flex-col items-center">
                     <div>
                         <div className="div-avatar">
-                            <img className="rounded-xl m-auto border-solid border-4 border-yellow-200 w-[270px] aspect-square mb-6" src={avatar} alt="Aleix Algueró" />
+                            <img className="rounded-xl m-auto border-solid border-4 border-yellow-200 w-[270px] aspect-square mb-6" src={avatar} alt="Aleix Algueró" aria-label="Photo of Aleix."/>
                             <div className="p-2 bg-gray-200 rounded-xl mt-0">
                                 <span className="social-links gap-2">
                                     <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" className="btn" rel="noreferrer" aria-label="Linkedin">

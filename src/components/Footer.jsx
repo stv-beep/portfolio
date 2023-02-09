@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export function Footer(){
     return (
             <>
                 <footer className="mt-28 p-2 bg-gray-900 flex items-center justify-center">
-                    <a href="/privacy"  className="mx-6 text-white hover:text-[#F5DF16]">Privacy policy</a>
-                    <a href="/cookies"  className="mx-6 text-white hover:text-[#F5DF16]">Cookies policy</a>
+                    <Link to="/privacy" className="mx-6 text-white hover:text-[#F5DF16]">Privacy policy</Link>
+                    <Link to="/cookies" className="mx-6 text-white hover:text-[#F5DF16]">Cookies policy</Link>
                 </footer>
                 <footer className="flex items-center justify-center h-24 min-h-full w-full">                    
 

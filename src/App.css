@@ -123,6 +123,53 @@ html {
     overflow-y: auto;
     backdrop-filter: blur(10px);
   }
+
+  .displayMenu:active div:first-child {
+    transform: rotate(45deg);
+  }
+  .displayMenu:active div:nth-child(2) {
+    opacity: 0;
+  }
+  .displayMenu:active div:last-child {
+    transform: rotate(-45deg);
+  }
+}
+
+/* nav elements hovers */
+.navSections::before, .navSections::after {
+  font-weight: 400;
+  color: #FFD200;
+  opacity: 0;
+  left: -15px;
+  content: '<';
+  transition: opacity 0.5s ease;
+}
+.navSections::after {
+  left: unset;
+  right: -15px;
+  content: '/>';
+}
+.navSections:hover::before,
+.navSections:hover::after {
+    opacity: 1;
+}
+
+.navSectionsTitle::before, .navSectionsTitle::after {
+  font-weight: 400;
+  color: #dc2626;
+  opacity: 0;
+  left: -15px;
+  content: '<';
+  transition: opacity 0.5s ease;
+}
+.navSectionsTitle::after {
+  left: unset;
+  right: -15px;
+  content: '/>';
+}
+.navSectionsTitle:hover::before,
+.navSectionsTitle:hover::after {
+    opacity: 1;
 }
 
 /* btn display nav */
@@ -143,16 +190,6 @@ html {
   border-radius: 5px;
   transition: all .5s;
   transform-origin: left;
-}
-
-#nav-check:checked ~ .displayMenu div:first-child {
-  transform: rotate(45deg);
-}
-#nav-check:checked ~ .displayMenu div:nth-child(2) {
-  opacity: 0;
-}
-#nav-check:checked ~ .displayMenu div:last-child {
-  transform: rotate(-45deg);
 }
 
 

@@ -1,64 +1,54 @@
 import '../App.css';
 
-
-const name = '<AA/>'
-
 const MenuItems = [
   {
-    Title: "<About me/>",
-    url: "/#about",
-    cName: "nav-links"
+    title: "About me",
+    url: "/#about"
   },
   {
-    Title: "<Skills/>",
-    url: "/#skills",
-    cName: "nav-links"
+    title: "Skills",
+    url: "/#skills"
   },
   {
-    Title: "<Projects/>",
-    url: "/#projects",
-    cName: "nav-links"
+    title: "Projects",
+    url: "/#projects"
   },
   {
-    Title: "<Contact me/>",
-    url: "/#contact",
-    cName: "nav-links"
+    title: "Contact me",
+    url: "/#contact"
   }
 ];
 
 
 export function Nav() {
-  return (<nav className="nav sticky top-0 z-10 backdrop-blur-sm">
-    <input type="checkbox" id="nav-check" />
-    <div className="nav-header">
-      <div className="nav-title">
-        <a href="/" className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-red-400 to-yellow-400 ml-4 hover:text-white">{name}</a>
+  return (
+    <nav className="nav sticky top-0 z-10 backdrop-blur-sm">
+      <input type="checkbox" id="nav-check" />
+      <div className="nav-header">
+        <div className="nav-title">
+          <a href="/" className="bg-clip-text text-transparent bg-gradient-to-r from-red-600 via-red-400 to-yellow-400 ml-4 hover:text-white navSectionsTitle">AA</a>          
+        </div>
       </div>
-    </div>
-    <div className="nav-btn">
-      <label htmlFor="nav-check">
-      <span className='displayMenu'>
-        <div></div>
-        <div></div>
-        <div></div>
-      </span>
+      <div className="nav-btn">
+        <label htmlFor="nav-check">
+          <span className='displayMenu'>
+            <div></div>
+            <div></div>
+            <div></div>
+          </span>
+        </label>
+      </div>
 
-      </label>
-    </div>
+      <div className="nav-links pr-4" id="navItems">
 
-
-
-    <div className="nav-links pr-4" id="navItems">
-      {MenuItems.map((item, index) => {
-        return (
-          <a href={item.url} key={index} className="bg-clip-text text-transparent  bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-600 hover:text-white">
-            {item.Title}
-          </a>
-        );
-      })}
-    </div>
-  </nav>
-
-
+        {MenuItems.map((item, index) => {
+          return (
+            <a href={item.url} key={index} className="bg-clip-text text-transparent  bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-600 hover:text-white navSections">
+              {item.title}
+            </a>
+          );
+        })}
+      </div>
+    </nav>
   )
 }
