@@ -1,6 +1,7 @@
 import CodeIcon from './Icons/CodeIcon'
 import DemoIcon from './Icons/DemoIcon'
 import { projects } from './projectsData'
+import Modal from './Modal'
 
 export function Projects(){
     return (
@@ -27,15 +28,14 @@ export function Projects(){
                                     return (
                                         <div key={alt} data-title={alt} className="inline-block">
                                             <img className="h-10 w-10 p-1 my-1 mr-1 bg-slate-200 shadow-md rounded-sm" src={img} alt={alt}/>
-                                        </div>
-                                        
+                                        </div>       
                                     )
                                 })}
                             </div>
                             <div className='px-6 pt-4 pb-4 flex flex-row gap-3'>
                                 <a href={project.sourceCode} target="_blank" className="float-right inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs rounded-lg shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out hover:scale-95 hover:shadow-yellow-200 hover:text-yellow-300" rel="noreferrer"><CodeIcon/>Code</a>
                                 
-                                { project.demo === undefined || project.demo === '' ? (<></>) : 
+                                { project.demo === undefined || project.demo === '' || project.carousel ? (<Modal/>) : 
                                 (<a href={project.demo} target="_blank" className={`float-right inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs rounded-lg shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out hover:scale-95 hover:shadow-yellow-200 hover:text-yellow-300 ${project.demo === undefined ? 'pointer-events-none opacity-30' : ''}`}rel="noreferrer"><DemoIcon/>Demo</a>)}
                             </div>
                         </section>
