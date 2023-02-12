@@ -11,7 +11,7 @@ export function Skills() {
                         {technologies.map((item, index) => {
                             return (
                                 <div key={index} data-title={item.name}>
-                                    <img  src={item.src} alt={item.name} className="p-1 m-1 bg-slate-200 shadow-md rounded-sm w-full h-full"></img>
+                                    <img src={item.src} alt={item.name} className="w-[55px] h-[55px] p-1 m-1 bg-slate-200 shadow-md rounded-sm"></img>
                                 </div>
                             );
                         })}
