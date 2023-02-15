@@ -59,10 +59,8 @@ export function About() {
                                         "Always trying to improve myself and those around me."</p>
                                     <br />
                                     <p className="xl:text-lg md:text-base sm:text-sm xs:text-sm xxs:text-[12px] text-white text-justify aboutme">
-                                        Technology enthusiast. I started repairing computers and realized that I loved this.
-                                        Then I studied Computer Network Systems Administration and I also liked it,
-                                        and then Web Development, which I liked even more. I enjoy helping people
-                                        by solving IT problems that they may have or developing their ideas through an app.
+                                        Technology enthusiast. I like hardware, I love software, and I'm always open to learn new technologies. I'm a team player and I enjoy working like that.
+                                        I enjoy helping people by solving IT problems that they may have or developing their ideas through an app.
                                     </p>
                                 </div>
                             </div>
