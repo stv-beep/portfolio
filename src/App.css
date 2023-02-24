@@ -229,7 +229,6 @@ html {
 .box {
   background: rgba(14, 14, 14, 0.7);
   box-shadow: 0px 0px 30px 5px #15151552;
-  border-radius: 3px;
   color: #000;
   backdrop-filter: blur(3px);
   font-size: calc(10px + 2vmin);
