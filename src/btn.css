@@ -65,49 +65,34 @@
 
 /* contact button */
 .contact-btn {
-       --glow-color: rgb(255, 250, 91);
-       --glow-spread-color: rgba(253, 255, 114, 0.781);
-       --btn-color: rgb(110, 109, 8);
-       border: .25em solid var(--glow-color);
+       border: .25em solid rgb(255, 250, 91);
        padding: 1em 3em;
-       color: var(--glow-color);
+       color: rgb(17 24 39);
        font-size: 15px;
        font-weight: bold;
-       background-color: var(--btn-color);
+       background-color: rgb(255, 250, 91);
        border-radius: 1em;
        outline: none;
-       box-shadow: 0 0 1em .25em var(--glow-color),
-              0 0 4em .1em var(--glow-spread-color),
-              inset 0 0 .75em .25em var(--glow-color);
-       text-shadow: 0 0 .5em var(--glow-color);
        position: relative;
        transition: all 0.3s;
 }
-
-.contact-btn::after {
-       pointer-events: none;
-       content: "";
-       position: absolute;
-       top: 120%;
-       left: 0;
-       height: 100%;
-       width: 100%;
-       background-color: var(--glow-spread-color);
-       filter: blur(2em);
-       opacity: .7;
-       transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-}
-
 .contact-btn:hover {
-       color: var(--btn-color);
-       background-color: var(--glow-color);
-       box-shadow: 0 0 1em .25em var(--glow-color),
-              0 0 4em 2em var(--glow-spread-color),
-              inset 0 0 .75em .25em var(--glow-color);
+       color: rgb(17 24 39);
+       background-color: transparent;
+       content:"Let's talk";
+       transition: all 1s;
 }
-
+.contact-btn:hover span {
+       display: none;
+}
+.contact-btn:hover:before {
+       content: "Let's talk";
+}
+.contact-btn:focus {
+       color: rgba(253, 255, 114, 0.781);
+       transition: all .1s;
+}
 .contact-btn:active {
-       box-shadow: 0 0 0.6em .25em var(--glow-color),
-              0 0 2.5em 2em var(--glow-spread-color),
-              inset 0 0 .5em .25em var(--glow-color);
+       color: rgba(253, 255, 114, 0.781);
+       transition: all .1s;
 }

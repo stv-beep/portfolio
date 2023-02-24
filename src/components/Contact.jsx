@@ -89,12 +89,10 @@ export function Contact() {
                         <div className="mb-6">
                             <button
                             type="submit"
-                            className="
-                            contact-btn
-                                pt-4
-                            "
-                            >Send</button>
+                            className="contact-btn"
+                            ><span>Send</span></button>
                         </div>
+                        <p className="text-gray-900 text-xs italic font-semibold">Or you can send me an email to aleixalguero0@gmail.com</p>
                     </form>
                 </div>
             </div>
