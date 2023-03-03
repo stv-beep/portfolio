@@ -74,5 +74,9 @@ export const technologies = [
     {
         name: 'Ubuntu',
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg'
-    }         
+    },
+    {
+        name: 'Wordpress',
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'
+    }
 ]
