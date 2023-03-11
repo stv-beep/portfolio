@@ -35,7 +35,7 @@ export function About() {
                                     from-yellow-100 via-yellow-200 to-yellow-300 lg:contrast-200'>
                                 "Always trying to improve myself and those around me."</p>
                             <br />
-                            <p className="xl:text-lg md:text-base sm:text-sm xs:text-sm xxs:text-[12px] text-white aboutme">
+                            <p className="xl:text-lg md:text-base sm:text-base xs:text-base text-white aboutme">
                                 Technology enthusiast. I like hardware, I love software, and I'm always open to learn new technologies. I'm a team player and I enjoy working like that.
                                 I enjoy helping people by solving IT problems that they may have or developing their ideas through an app.
                             </p>

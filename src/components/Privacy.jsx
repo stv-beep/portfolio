@@ -5,8 +5,8 @@ export function Privacy() {
     return (
         <>
             <Nav/>
-            <h1 className="text-black text-3xl px-10 py-6">Español</h1>
-            <div>
+            <div className="privacyP">
+                <h1 className="text-black text-3xl px-10 py-6">Español</h1>
                 <h1 className="text-black text-2xl px-10 pb-6">Política de privacidad</h1>
 
                 <div className="text-black text-sm px-10">

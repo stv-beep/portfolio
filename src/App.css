@@ -362,3 +362,9 @@ footer {
 [data-title] {
   position: relative;
 }
+
+
+/* policies bg */
+#root:has(.privacyP) , #root:has(.cookiesP) {
+  background-color: white;
+}
