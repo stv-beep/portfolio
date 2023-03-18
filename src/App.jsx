@@ -12,13 +12,15 @@ import './fonts/style.css'
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <About/>
-      <ScrollButton/>
-      <Skills/> 
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Nav />
+      <main>
+        <About />
+        <ScrollButton />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 }

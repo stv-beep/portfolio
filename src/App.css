@@ -10,22 +10,10 @@ html {
   word-wrap: normal;
 }
 
-.App {
-  max-width: 1920px;
-  margin: auto;
-}
 
-@media screen and (min-width: 2048px) {
-  .App {
-    max-width: 2048px;
-    margin: auto;
-  }
-}
-@media screen and (min-width: 2560px) {
-  .App {
-    max-width: 2560px;
-    margin: auto;
-  }
+.App {
+  max-width: 1600px;
+  margin: auto;
 }
 
 /* scrollbar */
@@ -45,6 +33,11 @@ html {
   width: 100%;
   font-family: 'Righteous';
   background-color: #000000ab;
+}
+@media (min-width: 1600px) {
+  .nav {
+    border-radius: 0px 0px 20px 20px;
+  } 
 }
 
 .nav > .nav-header {
@@ -208,7 +201,7 @@ html {
 }
 
 #about {
-  padding: 9vh 5vh 2vh 5vh;
+  padding: 9vh 0vh 2vh 0vh;
 }
 
 .flex-row {
@@ -321,7 +314,14 @@ html {
 
 /* footer */
 footer {
-  background:radial-gradient(black, transparent);
+  width: 100%;
+  font-family: 'Righteous';
+  background-color: #000000ab;
+}
+@media (min-width: 1600px) {
+  footer {
+    border-radius: 20px 20px 0px 0px;
+  } 
 }
 
 

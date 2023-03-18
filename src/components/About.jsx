@@ -18,7 +18,7 @@ export function About() {
                                     <a href="https://github.com/stv-beep" target="_blank" className="btn" rel="noreferrer" aria-label="Github">
                                         <i className="devicon-github-original"></i></a>
                                     <button className="btn" onClick={() => window.open('../CV-Aleix-Alguero.pdf', '_blank')}>
-                                        My CV</button>
+                                        CV</button>
                                 </span>
                             </div>
                         </div>
