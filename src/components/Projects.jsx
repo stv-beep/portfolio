@@ -13,12 +13,12 @@ export function Projects(){
 
                 {projects.map((project, index) => {
                     return (
-                        <section className="overflow-hidden shadow-lg bg-neutral-50 rounded-2xl" key={index}>
+                        <article className="overflow-hidden shadow-lg bg-neutral-50 rounded-2xl" key={index}>
                             <div className='2xl:h-[28em] xl:h-[28em] lg:h-[28em] 3xl:h-[35em]'>
                                 <img className="aspect-video" src={project.image} alt={project.title} />
                                 <div className="px-6 py-4">
                                     <h3 className="font-bold text-xl mb-2 text-black">{project.title}</h3>
-                                    <p className="text-black text-base 3xl:text-xl text-justify">
+                                    <p className="text-black text-base 3xl:text-xl">
                                         {project.text}
                                     </p>
                                 </div>
@@ -38,7 +38,7 @@ export function Projects(){
                                 { project.demo === undefined || project.demo === '' || project.carousel ? ( window.screen.width >= 768 ?(<Modal/>) : (<></>)) : 
                                 (<a href={project.demo} target="_blank" className={`float-right inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs rounded-lg shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out hover:scale-95 hover:shadow-yellow-200 hover:text-yellow-300 ${project.demo === undefined ? 'pointer-events-none opacity-30' : ''}`}rel="noreferrer"><DemoIcon/>Demo</a>)}
                             </div>
-                        </section>
+                        </article>
                     )
                 })}
             </div>
