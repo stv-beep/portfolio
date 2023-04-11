@@ -3,7 +3,7 @@ import { experiences } from './ExperienceData'
 export function Experience() {
     return (
         <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0 mb-10" id="experience">
-            <h2 className="text-center text-2xl section-title">Experience</h2>
+            <h2 className="text-center text-4xl section-title">Experience</h2>
 
             <div className="grid grid-flow-col bg-slate-100 rounded-2xl shadow-xl p-10">
                 <ol className="relative border-l border-gray-200 dark:border-gray-700">

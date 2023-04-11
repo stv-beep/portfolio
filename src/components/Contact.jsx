@@ -52,7 +52,7 @@ export function Contact() {
 
     return (
         <section className="pt-28 lg:mx-36" id="contact">
-            <h2 className="text-center text-2xl section-title">Let's talk</h2>
+            <h2 className="text-center text-4xl section-title">Let's talk</h2>
             <div className="md:max-w-full mx-auto">
                 <div className="p-6 border border-gray-300 bg-white-rgba rounded-3xl shadow-xl">
                     <form onSubmit={handleSubmit}>
