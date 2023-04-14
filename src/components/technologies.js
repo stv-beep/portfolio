@@ -76,7 +76,7 @@ export const technologies = [
         src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg'
     },
     {
-        name: 'Wordpress',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'
+        name: 'WordPress',
+        src: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'
     }
 ]
