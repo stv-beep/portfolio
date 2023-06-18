@@ -1,17 +1,16 @@
 import '../App.css';
 import avatar from '../images/aleixalguero.webp'
-import ParticlesBG from './ParticlesBG'
 
 export function About() {
     return (
         <section id="about">
             <div className="full-width">
-                <ParticlesBG />
+                
                 <div className="flex-row s:flex-col items-center">
                     <div>
                         <div className="div-avatar">
-                            <img className="rounded-full m-auto border-solid border-4 border-gray-200 w-[270px] aspect-square mb-6" src={avatar} alt="Aleix Algueró" aria-label="Photo of Aleix." />
-                            <div className="p-2 bg-gray-200 rounded-xl mt-0">
+                            <img className="rounded-full m-auto border-solid border-4 border-white-rgba w-[270px] aspect-square mb-6" src={avatar} alt="Aleix Algueró" aria-label="Photo of Aleix." />
+                            <div className="p-2 bg-white-rgba rounded-xl mt-0">
                                 <span className="social-links gap-2">
                                     <a href="https://www.linkedin.com/in/aleix-alguero-omedes" target="_blank" className="btn" rel="noreferrer" aria-label="Linkedin">
                                         <i className="devicon-linkedin-plain"></i></a>

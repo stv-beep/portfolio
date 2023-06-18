@@ -70,7 +70,7 @@ html {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -285,7 +285,7 @@ html {
 
 .section-title {
   font-family: 'Righteous', sans-serif;
-  color:azure;
+  color:#1a1a1a;
   margin: 0 auto 25px;
 }
 

@@ -6,7 +6,7 @@ export function Experience() {
         <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0 mb-10" id="experience">
             <SectionTitle title="Experience"/>
 
-            <div className="grid grid-flow-col bg-slate-100 rounded-2xl shadow-xl p-10">
+            <div className="grid grid-flow-col bg-white-rgba rounded-2xl shadow-xl p-10">
                 <ol className="relative border-l border-gray-200 dark:border-gray-700">
                     {experiences.map((experience, index) => {
                         return (
@@ -18,10 +18,10 @@ export function Experience() {
                                 <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{experience.position}
                                 {experience.currently === true ? (<span className="bg-yellow-500 text-yellow-100 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">Current</span>) : (<></>)}</h3>
                                 
-                                <p className="block mb-2 text-md font-normal leading-none text-gray-400 dark:text-gray-500">
+                                <p className="block mb-2 text-md font-normal leading-none text-gray-500 dark:text-gray-500">
                                 {experience.company}</p>
 
-                                <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                <time className="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
                                 {experience.chronology}</time>
                                 <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">{experience.info}</p>
                             </li>
