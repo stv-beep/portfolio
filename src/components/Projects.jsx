@@ -2,11 +2,12 @@ import CodeIcon from './Icons/CodeIcon'
 import DemoIcon from './Icons/DemoIcon'
 import { projects } from './projectsData'
 import Modal from './Modal'
+import { SectionTitle } from './SectionTitle'
 
 export function Projects(){
     return (
         <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0 mb-10" id="projects">
-            <h2 className="text-center text-4xl section-title">Projects and works</h2>
+            <SectionTitle title="Projects and works"/>
 
             <div className="lg:p-10 p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 
                 gap-5 bg-gray-200 rounded-3xl shadow-xl">

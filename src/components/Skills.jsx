@@ -1,9 +1,10 @@
 import { technologies } from "./technologies";
+import { SectionTitle } from "./SectionTitle";
 
 export function Skills() {
     return (
         <section className="skills pt-20 pb-0" id="skills">
-            <h2 className="text-center text-4xl section-title">Skills and technologies</h2>
+            <SectionTitle title="Skills and technologies"/>
 
             <div className="grid grid-flow-col mb-10 bg-slate-100 rounded-2xl shadow-xl">
                 <div>

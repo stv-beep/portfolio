@@ -2,6 +2,7 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
+import { SectionTitle } from './SectionTitle';
 
 export function Contact() {
 
@@ -52,7 +53,7 @@ export function Contact() {
 
     return (
         <section className="pt-28 lg:mx-36" id="contact">
-            <h2 className="text-center text-4xl section-title">Let's talk</h2>
+            <SectionTitle title="Let's talk"/>
             <div className="md:max-w-full mx-auto">
                 <div className="p-6 border border-gray-300 bg-white-rgba rounded-3xl shadow-xl">
                     <form onSubmit={handleSubmit}>

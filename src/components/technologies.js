@@ -78,5 +78,13 @@ export const technologies = [
     {
         name: 'WordPress',
         src: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'
+    },
+    {
+        name: 'Divi',
+        src: 'https://raw.githubusercontent.com/pheralb/svgl/d6d12456d84f1bdb756532100b7246f622ea35e9/static/library/divi.svg'
+    },
+    {
+        name: 'Elementor',
+        src: 'https://raw.githubusercontent.com/pheralb/svgl/874876fc8e737beb2405971bc917d1f2cb50a765/static/library/elementor.svg'
     }
 ]
