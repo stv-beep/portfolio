@@ -26,7 +26,7 @@ export function About() {
                     <article className="w-[50%] s:mt-8 s:w-[95%] xs:w-[100%] rounded-3xl">
                         <div className="box p-[42px] xs:p-[25px] rounded-3xl">
                             <div className="py-3 lg:contrast-200 rounded-3xl">
-                                <p className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-400 s:text-6xl md:text-3xl lg:text-4xl xl:text-6xl">ALEIX ALGUERÓ</p>
+                                <h1 className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-400 s:text-6xl md:text-3xl lg:text-4xl xl:text-6xl">ALEIX ALGUERÓ</h1>
                                 <span className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 s:text-xl md:text-lg lg:text-xl xl:text-2xl">
                                     Web Developer and SysAdmin</span>
                             </div>
