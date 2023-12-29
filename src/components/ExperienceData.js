@@ -2,7 +2,7 @@ export const experiences = [
     {
         company: "Belaweb",
         position: "Web Developer",
-        info: "Web developing with Wordpress, PHP, JS, jQuery, Woocommerce, Divi, Elementor... Developed scripts to improve the SEO of the company's website.",
+        info: "Web developing with WordPress, PHP, JavaScript, jQuery, WooCommerce, Divi and Elementor. Developed scripts to improve the SEO of the company's website.",
         chronology: "Feb 2023 - Present",
         currently: true
     },

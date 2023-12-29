@@ -34,9 +34,12 @@ export function About() {
                                     from-yellow-100 via-yellow-200 to-yellow-300 lg:contrast-200'>
                                 "Always trying to improve myself and those around me."</p>
                             <br />
+                            <p className="xl:text-lg md:text-base sm:text-base xs:text-base text-white aboutme mb-3">
+                                A tech enthusiast who's all about making things work, whether it's the hardware or the software. Started out fixing tech as an IT technician, and now I'm immersed in the world of web development (+1 years of experience).
+                            </p>
+
                             <p className="xl:text-lg md:text-base sm:text-base xs:text-base text-white aboutme">
-                                A technology enthusiast passionate about hardware and software. Spent the last few years assisting 
-                                in IT as a technician and now I am fully immersed in web development.
+                                I love tinkering with code and systems to create awesome online experiences. My passion lies in crafting cool digital solutions that work like a charm.
                             </p>
                         </div>
                     </article>
