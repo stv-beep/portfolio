@@ -23,7 +23,12 @@ export function Experience() {
 
                                 <time className="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-500">
                                 {experience.chronology}</time>
-                                <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">{experience.info}</p>
+                                {experience.info.map(value => {
+                                    return (
+                                        <p key={value} className="text-base font-normal text-gray-700 dark:text-gray-400">{value}</p>
+                                    )
+                                })}
+                                
                             </li>
                         )
                     })
