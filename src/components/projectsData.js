@@ -2,8 +2,9 @@ import f1quotes from '../images/f1quotesapi.png'
 import timetrack from '../images/timetrack.png'
 import textenhancer from '../images/textenhancer.png'
 import pwdgenerator from '../images/pwdgenerator.png'
+import realestate from '../images/realestatelanding.webp'
 
-const images = [f1quotes, timetrack, textenhancer, pwdgenerator]
+const images = [f1quotes, timetrack, textenhancer, pwdgenerator, realestate]
 
 export const projects = [
     {
@@ -48,6 +49,16 @@ export const projects = [
         text: 'Simple, but effective random password generator. Where the user can select the length of the password.',
         languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
             { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
+        type: 'Frontend'
+    },
+    {
+        title: 'Real Estate landing page',
+        image: images[4],
+        demo: 'https://quechuan-positions.000webhostapp.com',
+        text: 'Straightforward Real Estate landing page made with Elementor website builder.',
+        languages: [{ alt: 'WordPress', img: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'},
+            { alt: 'Elementor', img: 'https://raw.githubusercontent.com/pheralb/svgl/874876fc8e737beb2405971bc917d1f2cb50a765/static/library/elementor.svg'},
+            { alt: 'CSS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'}],
         type: 'Frontend'
     }
 ]
