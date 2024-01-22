@@ -6,12 +6,12 @@ const MenuItems = [
     url: "/#about"
   },
   {
-    title: "Projects",
-    url: "/#projects"
-  },
-  {
     title: "Experience",
     url: "/#experience"
+  },
+  {
+    title: "Projects",
+    url: "/#projects"
   },
   {
     title: "Skills",

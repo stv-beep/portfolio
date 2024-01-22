@@ -17,8 +17,8 @@ function App() {
       <main>
         <About />
         <ScrollButton />
-        <Projects />
         <Experience />
+        <Projects />
         <Skills />
         <Contact />
       </main>
