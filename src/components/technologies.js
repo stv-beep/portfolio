@@ -29,7 +29,8 @@ export const technologies = [
     },
     { 
         name: 'Laravel',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg'
+          
     },
     {
         name: 'MySQL',
@@ -45,7 +46,7 @@ export const technologies = [
     },
     {
         name: 'Tailwindcss',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'
     },
     {
         name: 'TypeScript',
@@ -73,7 +74,7 @@ export const technologies = [
     },
     {
         name: 'Ubuntu',
-        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg'
+        src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original-wordmark.svg'
     },
     {
         name: 'WordPress',

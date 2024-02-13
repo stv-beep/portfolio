@@ -23,7 +23,7 @@ export const projects = [
         image: images[1],
         sourceCode: 'https://github.com/stv-beep/nath',
         text: 'Work hours registration application for a company of clothing storage and distribution. Different shifts during the day and different tasks, each one with its registration. In addition, an administration and consultation area. Currently used in a company.',
-        languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg'},
+        languages: [{ alt: 'Laravel', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg'},
             { alt: 'JavaScript', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
             { alt: 'Bootstrap', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg'},
             { alt: 'jQuery', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg'},
@@ -38,7 +38,7 @@ export const projects = [
         sourceCode: 'https://github.com/stv-beep/extreme-text-enhancer',
         text: `An app that beautifies and enhances the user's input (using AI) as if it had been written by someone very formal and cultured. For example: "I like the chocolate." can be "I am fond of the confectionery known as chocolate."`,
         languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
-            { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
+            { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'}],
         type: 'Frontend'
     },
     {
@@ -48,7 +48,7 @@ export const projects = [
         sourceCode: 'https://github.com/stv-beep/password-generator',
         text: 'Simple, but effective random password generator. Where the user can select the length of the password.',
         languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
-            { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'}],
+            { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'}],
         type: 'Frontend'
     },
     {
