@@ -44,7 +44,7 @@ export const projects = [
     {
         title: 'Random password generator',
         image: images[3],
-        demo: 'https://hacktoberfest-2022.vercel.app/entry/stv-beep',
+        demo: 'https://password-generator-zeta-ashen.vercel.app/',
         sourceCode: 'https://github.com/stv-beep/password-generator',
         text: 'Simple, but effective random password generator. Where the user can select the length of the password.',
         languages: [{ alt: 'Vue', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
