@@ -292,7 +292,7 @@ html {
 
 /* projects section*/
 .projects h3 {
-  font-family: "SF UI Text Medium", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+  font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
 }
 
 @media screen and (max-width: 650px) {

@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 export default function Modal() {
   return (
     <>
-      <button type="button" target="_blank" data-modal-target="defaultModal" data-modal-toggle="defaultModal" className={`float-right inline-block px-6 py-2.5 bg-gray-800 text-white font-medium text-xs rounded-lg shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out hover:scale-95 hover:shadow-yellow-200 hover:text-yellow-300 `} rel="noreferrer"><ScreenshotIcon />Screenshots</button>
+      <button type="button" target="_blank" data-modal-target="defaultModal" data-modal-toggle="defaultModal" className={`inline-flex items-center justify-center px-3 py-2 text-xs font-semibold text-center text-red-700 bg-transparent border border-red-700/60 rounded-lg hover:bg-red-600/20 md:text-sm hover:shadow-red-600/10 hover:shadow-lg focus:shadow-lg active:shadow-lg transition duration-300 ease-in-out`} rel="noreferrer"><ScreenshotIcon />Screenshots</button>
 
       <div id="defaultModal" tabIndex="-1" aria-hidden="true" className="fixed top-0 left-0 right-0 z-50 hidden w-full p-3 overflow-x-hidden overflow-y-auto md:inset-0 md:h-full h-modal">
         <div className="relative w-10/12 max-w-7xl">
