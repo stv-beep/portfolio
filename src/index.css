@@ -9,32 +9,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(150deg,
-    hsl(46deg 100% 51%) 0%,
-    hsl(46deg 100% 51%) 0%,
-    hsl(46deg 100% 51%) 1%,
-    hsl(46deg 100% 51%) 3%,
-    hsl(46deg 100% 51%) 5%,
-    hsl(46deg 100% 51%) 9%,
-    hsl(46deg 100% 51%) 18%,
-    hsl(64deg 100% 53%) 36%,
-    hsl(82deg 100% 55%) 59%,
-    hsl(100deg 100% 57%) 72%,
-    hsl(117deg 100% 59%) 79%,
-    hsl(135deg 100% 61%) 84%,
-    hsl(153deg 100% 63%) 88%,
-    hsl(153deg 100% 63%) 91%,
-    hsl(153deg 100% 63%) 94%,
-    hsl(153deg 100% 63%) 95%,
-    hsl(153deg 100% 63%) 97%,
-    hsl(153deg 100% 63%) 98%,
-    hsl(153deg 100% 63%) 99%,
-    hsl(153deg 100% 63%) 99%,
-    hsl(153deg 100% 63%) 100%,
-    hsl(153deg 100% 63%) 100%,
-    hsl(153deg 100% 63%) 100%,
-    hsl(153deg 100% 63%) 100%,
-    hsl(153deg 100% 63%) 100%
+  
+  background-image: linear-gradient(
+    320deg,
+    hsl(240deg 8% 97%) 0%,
+    hsl(253deg 18% 98%) 14%,
+    hsl(267deg 28% 98%) 20%,
+    hsl(283deg 35% 97%) 24%,
+    hsl(301deg 39% 97%) 29%,
+    hsl(317deg 60% 97%) 33%,
+    hsl(328deg 88% 98%) 36%,
+    hsl(335deg 100% 98%) 40%,
+    hsl(341deg 100% 97%) 43%,
+    hsl(349deg 100% 97%) 47%,
+    hsl(357deg 100% 97%) 50%,
+    hsl(6deg 100% 97%) 53%,
+    hsl(14deg 100% 96%) 57%,
+    hsl(20deg 100% 96%) 60%,
+    hsl(25deg 100% 95%) 64%,
+    hsl(29deg 100% 94%) 67%,
+    hsl(33deg 100% 94%) 71%,
+    hsl(36deg 100% 93%) 76%,
+    hsl(39deg 100% 93%) 80%,
+    hsl(45deg 83% 92%) 86%,
+    hsl(54deg 66% 91%) 100%
   );
 }
 
