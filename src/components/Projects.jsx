@@ -15,7 +15,7 @@ export function Projects(){
                 {projects.map((project, index) => {
                     return (
                         <article className="rounded-2xl" key={index}>
-                            <div className='2xl:h-[28em] xl:h-[28em] lg:h-[28em] 3xl:h-[35em]'>
+                            <div className='2xl:h-[25em] xl:h-[26em] lg:h-[26em] 3xl:h-[28em]'>
                                 <a href={project.demo}><img className="aspect-video rounded-lg transition duration-300 ease-in-out hover:scale-105" src={project.image} alt={project.title} /></a>
                                 <div className="px-6 py-4">
                                     <h3 className="font-bold text-3xl mb-2 text-black"><a className='hover:text-teal-500 transition ease-in-out' href={project.demo}>{project.title}</a></h3>
