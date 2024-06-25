@@ -55,7 +55,7 @@ export function Contact() {
         <section className="pt-28 lg:mx-36" id="contact">
             <SectionTitle title="Let's talk"/>
             <div className="md:max-w-full mx-auto">
-                <div className="p-6 bg-white-rgba rounded-3xl shadow-xl">
+                <div className="p-6 bg-white/30 rounded-3xl shadow-xl">
                     <form onSubmit={handleSubmit}>
                         <label className="block mb-6">
                             <strong className="text-gray-700">Name</strong>

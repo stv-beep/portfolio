@@ -6,7 +6,7 @@ export function Experience() {
         <section className="projects pt-20 2xl:mx-36 lg:mx-36 md:mx-0 mb-10" id="experience">
             <SectionTitle title="Experience"/>
 
-            <div className="grid grid-flow-col bg-white-rgba rounded-2xl shadow-xl p-10">
+            <div className="grid grid-flow-col bg-white/30 rounded-2xl shadow-xl p-10">
                 <ol className="relative border-l border-gray-200 dark:border-gray-700">
                     {experiences.map((experience, index) => {
                         return (
