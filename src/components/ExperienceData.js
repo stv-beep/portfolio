@@ -1,10 +1,10 @@
 export const experiences = [
     {
-        company: "Belaweb",
+        company: "Belaweb / CreamosNegocio.Online",
         position: "Web Developer",
-        info: [`Web developing with WordPress, PHP, JavaScript, jQuery, WooCommerce, Divi and Elementor.`, 
-        `-Creating everything from simple websites to E-commerces with thousands of products.`, 
-        `-Developing scripts to improve the SEO of the company's website.`],
+        info: [`Web developing with WordPress, PHP, JavaScript, jQuery, WooCommerce, Elementor and Divi.`, 
+        `- Creating everything from simple websites to E-commerces with thousands of products.`, 
+        `- Websites performance and user experience improvements.`],
         chronology: "Feb 2023 - Present",
         currently: true
     },

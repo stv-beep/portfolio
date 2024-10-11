@@ -16,9 +16,9 @@ export function Projects(){
                     return (
                         <article className="rounded-2xl" key={index}>
                             <div className='2xl:h-[25em] xl:h-[26em] lg:h-[26em] 3xl:h-[28em]'>
-                                <a href={project.demo}><img className="aspect-video rounded-lg transition duration-300 ease-in-out hover:scale-105" src={project.image} alt={project.title} /></a>
+                                <a href={project.demo}><img className={`aspect-video rounded-lg ${project.demo === undefined || project.demo === '' ? '' : 'transition duration-300 ease-in-out hover:scale-105'}`} src={project.image} alt={project.title} /></a>
                                 <div className="px-6 py-4">
-                                    <h3 className="font-bold text-3xl mb-2 text-black"><a className='hover:text-teal-500 transition ease-in-out' href={project.demo}>{project.title}</a></h3>
+                                    <h3 className="font-bold text-3xl mb-2 text-black"><a className={` ${project.demo === undefined || project.demo === '' ? '' : 'hover:text-teal-500 transition ease-in-out'}`} href={project.demo}>{project.title}</a></h3>
                                     <p className="text-black text-base 3xl:text-xl">
                                         {project.text}
                                     </p>
