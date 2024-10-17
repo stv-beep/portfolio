@@ -3,8 +3,9 @@ import timetrack from '../images/timetrack.png'
 import textenhancer from '../images/textenhancer.png'
 import pwdgenerator from '../images/pwdgenerator.png'
 import realestate from '../images/realestatelanding.webp'
+import f1quotesweb from '../images/f1quotesweb.webp'
 
-const images = [f1quotes, timetrack, textenhancer, pwdgenerator, realestate]
+const images = [f1quotes, timetrack, textenhancer, pwdgenerator, realestate, f1quotesweb]
 
 export const projects = [
     {
@@ -59,6 +60,16 @@ export const projects = [
         languages: [{ alt: 'WordPress', img: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'},
             { alt: 'Elementor', img: 'https://raw.githubusercontent.com/pheralb/svgl/874876fc8e737beb2405971bc917d1f2cb50a765/static/library/elementor.svg'},
             { alt: 'CSS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'}],
+        type: 'Frontend'
+    },
+    {
+        title: 'F1 drivers Quotes Website',
+        image: images[5],
+        demo: 'https://f1-quotes.vercel.app',
+        sourceCode: 'https://github.com/stv-beep/f1-quotes-web',
+        text: 'A simple website that shows multiple F1 drivers quotes.',
+        languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+            { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'}],
         type: 'Frontend'
     }
 ]
