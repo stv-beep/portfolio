@@ -4,8 +4,9 @@ import textenhancer from '../images/textenhancer.png'
 import pwdgenerator from '../images/pwdgenerator.png'
 import realestate from '../images/realestatelanding.webp'
 import f1quotesweb from '../images/f1quotesweb.webp'
+import globalcolorplugin from '../images/globalColorSelectorPlugin.png'
 
-const images = [f1quotes, timetrack, textenhancer, pwdgenerator, realestate, f1quotesweb]
+const images = [f1quotes, timetrack, textenhancer, pwdgenerator, realestate, f1quotesweb, globalcolorplugin]
 
 export const projects = [
     {
@@ -53,14 +54,17 @@ export const projects = [
         type: 'Frontend'
     },
     {
-        title: 'Real Estate landing page',
-        image: images[4],
-        demo: 'http://aleix.infinityfreeapp.com/',
-        text: 'Straightforward Real Estate landing page made with Elementor website builder.',
-        languages: [{ alt: 'WordPress', img: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'},
-            { alt: 'Elementor', img: 'https://raw.githubusercontent.com/pheralb/svgl/874876fc8e737beb2405971bc917d1f2cb50a765/static/library/elementor.svg'},
-            { alt: 'CSS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'}],
-        type: 'Frontend'
+        title: 'Global color changer for Elementor',
+        image: images[6],
+        demo: 'http://aleix.infinityfreeapp.com/select-color-demo/',
+        sourceCode: 'https://github.com/stv-beep/Global-color-changer-for-Elementor-Plugin',
+        text: 'WordPress plugin that lets the visitor select colors to change website client-side global primary and secondary colors.',
+        languages: [{alt: 'PHP', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg'},
+            {alt: 'JavaScript', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+            { alt: 'CSS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'},
+            { alt: 'WordPress', img: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'},
+            { alt: 'Elementor', img: 'https://raw.githubusercontent.com/pheralb/svgl/874876fc8e737beb2405971bc917d1f2cb50a765/static/library/elementor.svg'},],
+        type: 'Backend'
     },
     {
         title: 'F1 drivers Quotes Website',
@@ -71,5 +75,15 @@ export const projects = [
         languages: [{ alt: 'React', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
             { alt: 'Tailwind', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'}],
         type: 'Frontend'
-    }
+    },
+    {
+        title: 'Real Estate landing page',
+        image: images[4],
+        demo: 'http://aleix.infinityfreeapp.com/',
+        text: 'Straightforward Real Estate landing page made with Elementor website builder.',
+        languages: [{ alt: 'WordPress', img: 'https://raw.githubusercontent.com/pheralb/svgl/8df82e2e2aeeda02d6c858ad752a6cb044d4954a/static/library/wordpress.svg'},
+            { alt: 'Elementor', img: 'https://raw.githubusercontent.com/pheralb/svgl/874876fc8e737beb2405971bc917d1f2cb50a765/static/library/elementor.svg'},
+            { alt: 'CSS', img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'}],
+        type: 'Frontend'
+    },
 ]
