@@ -1,6 +1,6 @@
 export const experiences = [
     {
-        company: "Belaweb / CreamosNegocio.Online",
+        company: "Kreatik Digital",
         position: "Web Developer",
         info: [`Web developing with WordPress, PHP, JavaScript, jQuery, WooCommerce, Elementor and Divi.`, 
         `- Creating everything from simple websites to E-commerces with thousands of products.`, 
