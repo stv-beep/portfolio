@@ -33,10 +33,13 @@ export function About() {
                                 "Always trying to improve myself and those around me."</p>
                             <br />
                         <p className="xl:text-lg md:text-base sm:text-base xs:text-base  aboutme mb-3">
-                                A tech enthusiast who's all about making things work, whether it's the hardware or the software. Started out fixing tech as an IT technician, and now I'm immersed in the world of web development (+2 years of experience).
+                                A tech enthusiast who's all about making things work, whether it's hardware or software. Started out fixing tech as an IT technician, and now I'm immersed in the world of web development with 3+ years of experience.
                         </p>
                         <p className="xl:text-lg md:text-base sm:text-base xs:text-base  aboutme">
-                                I love tinkering with code and systems to create awesome online experiences. My passion lies in crafting cool digital solutions that work like a charm.
+                                I love tinkering with code and systems to create awesome online experiences. My passion lies in crafting digital solutions that work like a charm.
+                        </p>
+                        <p className="xl:text-lg md:text-base sm:text-base xs:text-base  aboutme">
+                                Outside of work, I enjoy playing electric guitar, swimming, and watching movies.
                         </p>
                     </article>
 
